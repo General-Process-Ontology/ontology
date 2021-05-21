@@ -674,7 +674,10 @@ owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
 :GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560 rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d> ,
                                                              [ owl:inverseOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d>
-                                                             ] .
+                                                             ] ;
+                                          rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                          rdfs:range <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSuccessor"@en .
 
 
 #################################################################
