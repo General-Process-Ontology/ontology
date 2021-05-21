@@ -33,41 +33,41 @@ emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d rdf:type owl:ObjectProperty .
 emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_0c25c011_9320_461f_bc23_6e9691827305
-:BVCO_0c25c011_9320_461f_bc23_6e9691827305 rdf:type owl:ObjectProperty ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0c25c011_9320_461f_bc23_6e9691827305
+:GPO_0c25c011_9320_461f_bc23_6e9691827305 rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf emmo:EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291 ;
                                            rdfs:domain emmo:EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152 ;
                                            rdfs:range :GPO_995475ba_f196_4b19_a7c7_38d032c59270 ;
                                            skos:prefLabel "fulfillsRole"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_389686f5_86d8_4e97_ba71_0537bedf0f38
-:BVCO_389686f5_86d8_4e97_ba71_0537bedf0f38 rdf:type owl:ObjectProperty ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_389686f5_86d8_4e97_ba71_0537bedf0f38
+:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
-                                           owl:inverseOf :BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560 ;
+                                           owl:inverseOf :GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560 ;
                                            rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
                                            rdfs:range emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
                                            skos:prefLabel "hasPredecessor"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_703ec528_ea40_486e_9924_b911782b1a75
-:BVCO_703ec528_ea40_486e_9924_b911782b1a75 rdf:type owl:ObjectProperty ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75
+:GPO_703ec528_ea40_486e_9924_b911782b1a75 rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                            rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
                                            rdfs:range emmo:EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d ;
                                            skos:prefLabel "hasInput"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb
-:BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb rdf:type owl:ObjectProperty ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb
+:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                            rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
                                            rdfs:range emmo:EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d ;
                                            skos:prefLabel "hasOutput"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560
-:BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560 rdf:type owl:ObjectProperty .
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560
+:GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560 rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -116,7 +116,7 @@ emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class .
 
 ###  http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c
 emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c rdf:type owl:Class ;
-                                               owl:equivalentClass :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd .
+                                               owl:equivalentClass :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd .
 
 
 ###  http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
@@ -125,7 +125,7 @@ emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 rdf:type owl:Class .
 
 ###  http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
 emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b rdf:type owl:Class ;
-                                               owl:equivalentClass :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 .
+                                               owl:equivalentClass :GPO_01cd2578_8730_4ac9_a555_9112728ea939 .
 
 
 ###  http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d
@@ -140,75 +140,75 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6
-:BVCO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#GPO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6
+:GPO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6 rdf:type owl:Class ;
                                            rdfs:subClassOf :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
                                            skos:prefLabel "PricePerUnit"@en .
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_01cd2578_8730_4ac9_a555_9112728ea939
-:BVCO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939
+:GPO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
                                                            :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                             owl:someValuesFrom :BVCO_01cd2578_8730_4ac9_a555_9112728ea939
+                                                             owl:someValuesFrom :GPO_01cd2578_8730_4ac9_a555_9112728ea939
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
                                                              owl:someValuesFrom emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
                                                              owl:someValuesFrom emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                             owl:someValuesFrom :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:someValuesFrom :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :GPO_2c787420_067a_483a_b565_a9a55898210e
                                                            ] ;
                                            rdfs:comment "a matter transformation process, e. g. chemical synthesis"@en ;
                                            skos:prefLabel "PhysicalProcess"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_14953156_bec6_4935_a6c5_36920348d903
-:BVCO_14953156_bec6_4935_a6c5_36920348d903 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_14953156_bec6_4935_a6c5_36920348d903
+:GPO_14953156_bec6_4935_a6c5_36920348d903 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ;
                                            rdfs:comment "Process that transforms but does not necessarily assemble matter" ;
                                            skos:prefLabel "TransformationProcess"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_1880a2e6_0c9f_425a_9615_d4bdf121215f
-:BVCO_1880a2e6_0c9f_425a_9615_d4bdf121215f rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f
+:GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2 ;
                                            rdfs:comment "Energy as physical concept"@en ;
                                            skos:prefLabel "Energy"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_19430518_1a88_4ad0_916a_c903fe807520
-:BVCO_19430518_1a88_4ad0_916a_c903fe807520 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_19430518_1a88_4ad0_916a_c903fe807520
+:GPO_19430518_1a88_4ad0_916a_c903fe807520 rdf:type owl:Class ;
                                            rdfs:subClassOf :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
                                            skos:prefLabel "PricePerWeight"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_2189e451_0054_4e25_8679_001ec2cdad7f
-:BVCO_2189e451_0054_4e25_8679_001ec2cdad7f rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2189e451_0054_4e25_8679_001ec2cdad7f
+:GPO_2189e451_0054_4e25_8679_001ec2cdad7f rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_fb793a58_4083_42ad_a03c_27f594793b16 ;
                                            skos:prefLabel "PressureTreatment"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_23f6e14f_b0fa_4140_b915_767131ac9b7f
-:BVCO_23f6e14f_b0fa_4140_b915_767131ac9b7f rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f
+:GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
                                            skos:prefLabel "RawMaterial"@en .
 
@@ -216,7 +216,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8
 :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ,
-                                                           :BVCO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09 ,
+                                                           :GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
                                                              owl:someValuesFrom emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
@@ -231,76 +231,76 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2c787420_067a_483a_b565_a9a55898210e
 :GPO_2c787420_067a_483a_b565_a9a55898210e rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae ,
-                                                           :BVCO_23f6e14f_b0fa_4140_b915_767131ac9b7f ;
+                                                           :GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f ;
                                            skos:prefLabel "Ore"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_318b082b_658a_457c_88c2_b23d780febeb
-:BVCO_318b082b_658a_457c_88c2_b23d780febeb rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_318b082b_658a_457c_88c2_b23d780febeb
+:GPO_318b082b_658a_457c_88c2_b23d780febeb rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
                                            skos:prefLabel "Smelting"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_3af46bf2_9857_4102_a183_ab08d7cd6523
-:BVCO_3af46bf2_9857_4102_a183_ab08d7cd6523 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 ,
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_3af46bf2_9857_4102_a183_ab08d7cd6523
+:GPO_3af46bf2_9857_4102_a183_ab08d7cd6523 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                             owl:someValuesFrom :BVCO_23f6e14f_b0fa_4140_b915_767131ac9b7f
+                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:someValuesFrom :GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f
                                                            ] ;
                                            skos:prefLabel "Mining"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_45b3677d_f436_4cfd_aa55_3ae5eab2e232
-:BVCO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232
+:GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a ,
-                                                           :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+                                                           :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
                                            skos:prefLabel "Mixing"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4
-:BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4
+:GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
                                            skos:prefLabel "Sorting"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_5c298112_0e26_42fe_9984_dadfcee54007
-:BVCO_5c298112_0e26_42fe_9984_dadfcee54007 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_5c298112_0e26_42fe_9984_dadfcee54007
+:GPO_5c298112_0e26_42fe_9984_dadfcee54007 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ;
                                            skos:prefLabel "RotaryMixing"@en .
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_6167332b_8416_46c9_90d1_49ee7416ae24
-:BVCO_6167332b_8416_46c9_90d1_49ee7416ae24 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 ,
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_6167332b_8416_46c9_90d1_49ee7416ae24
+:GPO_6167332b_8416_46c9_90d1_49ee7416ae24 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ,
                                                            :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                             owl:someValuesFrom :BVCO_23f6e14f_b0fa_4140_b915_767131ac9b7f
+                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:someValuesFrom :GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f
                                                            ] ;
                                            skos:prefLabel "Refining"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_6dff3494_5026_41ed_8247_cd1ce7e56b62
-:BVCO_6dff3494_5026_41ed_8247_cd1ce7e56b62 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62
+:GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
                                            skos:prefLabel "AirFlowSorting"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1
-:BVCO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1
+:GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
                                            skos:prefLabel "Sintering"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f
-:BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f
+:GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
                                            skos:prefLabel "DensitySorting"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546
-:BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546
+:GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
                                            skos:prefLabel "Disintegration"@en .
 
 
@@ -316,20 +316,20 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            skos:prefLabel "Role"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_a1c93821_6eec_44f1_9323_acc7eb737650
-:BVCO_a1c93821_6eec_44f1_9323_acc7eb737650 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_a1c93821_6eec_44f1_9323_acc7eb737650
+:GPO_a1c93821_6eec_44f1_9323_acc7eb737650 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
                                            skos:prefLabel "Centrifuging"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b
-:BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b
+:GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
                                            skos:prefLabel "SizeSorting"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
-:BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+:GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 ,
                                                            emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d ;
                                            skos:prefLabel "Information"@en .
@@ -339,119 +339,119 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :GPO_9471e306_144f_4310_82bf_1415d23326e0
                                                            ] ;
                                            rdfs:comment "Often refered as Cathode"@en ;
                                            skos:prefLabel "ChemicalProcess"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_ac60cfc4_1500_41a4_9cf0_b5045155830e
-:BVCO_ac60cfc4_1500_41a4_9cf0_b5045155830e rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e
+:GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 ;
                                            skos:prefLabel "MonetaryValue"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_b28dc33d_0d96_4441_9686_7327becdcbc1
-:BVCO_b28dc33d_0d96_4441_9686_7327becdcbc1 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_b28dc33d_0d96_4441_9686_7327becdcbc1
+:GPO_b28dc33d_0d96_4441_9686_7327becdcbc1 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_fb793a58_4083_42ad_a03c_27f594793b16 ;
                                            rdfs:comment "Polarization, e.g. for piezoelectric materials" ;
                                            skos:prefLabel "ElectricFieldTreatment"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381
 :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_ac60cfc4_1500_41a4_9cf0_b5045155830e ;
+                                           rdfs:subClassOf :GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e ;
                                            skos:prefLabel "SpecificMonetaryValue"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09
-:BVCO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09
+:GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2 ;
                                            skos:prefLabel "Assembly"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_c578a5f4_43d3_40a7_ad60_ceccc0697172
-:BVCO_c578a5f4_43d3_40a7_ad60_ceccc0697172 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c578a5f4_43d3_40a7_ad60_ceccc0697172
+:GPO_c578a5f4_43d3_40a7_ad60_ceccc0697172 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_fb793a58_4083_42ad_a03c_27f594793b16 ;
                                            rdfs:comment "Polarization, e.g. for magnetic materials" ;
                                            skos:prefLabel "MagneticFieldTreatment"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_c879a010_1232_4d80_99f4_c53b7cbc6f4c
-:BVCO_c879a010_1232_4d80_99f4_c53b7cbc6f4c rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c879a010_1232_4d80_99f4_c53b7cbc6f4c
+:GPO_c879a010_1232_4d80_99f4_c53b7cbc6f4c rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
                                            skos:prefLabel "Sieving"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_cc903d23_0d06_49f8_81e4_b7511d2587e9
-:BVCO_cc903d23_0d06_49f8_81e4_b7511d2587e9 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9
+:GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ;
                                            skos:prefLabel "Recycling"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
-:BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
+:GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_fb793a58_4083_42ad_a03c_27f594793b16 ;
                                            skos:prefLabel "HeatTreatment"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266
-:BVCO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266
+:GPO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
                                            skos:prefLabel "Milling"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_e32ea22e_6cc5_48e7_a168_faad8e657ff5
-:BVCO_e32ea22e_6cc5_48e7_a168_faad8e657ff5 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_e32ea22e_6cc5_48e7_a168_faad8e657ff5
+:GPO_e32ea22e_6cc5_48e7_a168_faad8e657ff5 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
                                            rdfs:comment "e.g. vacuum, Argon atmosphere" ;
                                            skos:prefLabel "ProcessEnvironment"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0
-:BVCO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0
+:GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                             owl:someValuesFrom :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:someValuesFrom :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                             owl:someValuesFrom :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:someValuesFrom :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd
                                                            ] ;
                                            rdfs:comment "a information transformation process, e. g. converting file formats, calculation of a mathematical expression"@en ;
                                            skos:prefLabel "InformationalProcess"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_f352a440_5fbd_42c6_bff1_e70f0e652043
-:BVCO_f352a440_5fbd_42c6_bff1_e70f0e652043 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f352a440_5fbd_42c6_bff1_e70f0e652043
+:GPO_f352a440_5fbd_42c6_bff1_e70f0e652043 rdf:type owl:Class ;
                                            rdfs:subClassOf :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
                                            skos:prefLabel "PricePerVolume"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_f535f871_95e7_46e2_8d62_f77bf9402987
-:BVCO_f535f871_95e7_46e2_8d62_f77bf9402987 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f535f871_95e7_46e2_8d62_f77bf9402987
+:GPO_f535f871_95e7_46e2_8d62_f77bf9402987 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
                                            skos:prefLabel "Crushing"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_f716e88d_310c_492f_b6b1_0f358677b65e
-:BVCO_f716e88d_310c_492f_b6b1_0f358677b65e rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f716e88d_310c_492f_b6b1_0f358677b65e
+:GPO_f716e88d_310c_492f_b6b1_0f358677b65e rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
                                            skos:prefLabel "Filtering"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9
-:BVCO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9
+:GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ;
                                            rdfs:comment "The actual use of a product" ;
                                            skos:prefLabel "Application"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_fb793a58_4083_42ad_a03c_27f594793b16
-:BVCO_fb793a58_4083_42ad_a03c_27f594793b16 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_fb793a58_4083_42ad_a03c_27f594793b16
+:GPO_fb793a58_4083_42ad_a03c_27f594793b16 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
                                            skos:prefLabel "FieldTreatment"@en .
 
 
