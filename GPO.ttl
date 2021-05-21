@@ -163,48 +163,48 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_0658b91d_0b48_4302_9065_e3b5fad4815e
-:BVCO_0658b91d_0b48_4302_9065_e3b5fad4815e rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ,
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0658b91d_0b48_4302_9065_e3b5fad4815e
+:GPO_0658b91d_0b48_4302_9065_e3b5fad4815e rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ,
                                                            :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                             owl:someValuesFrom :BVCO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
+                                                             owl:someValuesFrom :GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
                                                            ] ;
-                                           skos:prefLabel "SpentedPart"@en .
+                                           skos:prefLabel "SpentPart"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
-:BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
+:GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
-                                           skos:prefLabel "SpentedEngineered"@en .
+                                           skos:prefLabel "SpentEngineered"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
-:BVCO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
+:GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 ,
-                                                           :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ;
-                                           skos:prefLabel "SpentedMaterial"@en .
+                                                           :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ;
+                                           skos:prefLabel "SpentMaterial"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_c85ad770_62d1_4fc8_9245_767cfa817252
-:BVCO_c85ad770_62d1_4fc8_9245_767cfa817252 rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c85ad770_62d1_4fc8_9245_767cfa817252
+:GPO_c85ad770_62d1_4fc8_9245_767cfa817252 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 ,
-                                                           :BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ;
-                                           skos:prefLabel "UnspentedMaterial"@en .
+                                                           :GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ;
+                                           skos:prefLabel "UnspentMaterial"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54
-:BVCO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ,
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54
+:GPO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54 rdf:type owl:Class ;
+                                           rdfs:subClassOf :GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ,
                                                            :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
-                                           skos:prefLabel "UnspentedPart"@en .
+                                           skos:prefLabel "UnspentPart"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
-:BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a rdf:type owl:Class ;
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
+:GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
-                                           skos:prefLabel "UnspentedEngineered"@en .
+                                           skos:prefLabel "UnspentEngineered"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939
@@ -379,7 +379,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0
 :GPO_9471e306_144f_4310_82bf_1415d23326e0 rdf:type owl:Class ;
-                                          rdfs:subClassOf :BVCO_c85ad770_62d1_4fc8_9245_767cfa817252 ;
+                                          rdfs:subClassOf :GPO_c85ad770_62d1_4fc8_9245_767cfa817252 ;
                                           skos:prefLabel "RefinedMaterial"@en .
 
 
@@ -458,11 +458,11 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                            owl:someValuesFrom :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
+                                                            owl:someValuesFrom :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                            owl:someValuesFrom :BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
+                                                            owl:someValuesFrom :GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
                                                           ] ;
                                           skos:prefLabel "Recycling"@en .
 
@@ -528,7 +528,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                            owl:someValuesFrom :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
+                                                            owl:someValuesFrom :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
                                                           ] ;
                                           rdfs:comment "The actual use of a product" ;
                                           skos:prefLabel "Application"@en .

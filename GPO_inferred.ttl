@@ -6717,50 +6717,6 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "BoltzmannConstant"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_0658b91d_0b48_4302_9065_e3b5fad4815e
-:BVCO_0658b91d_0b48_4302_9065_e3b5fad4815e rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ,
-                                                           :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
-                                                             owl:someValuesFrom :BVCO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
-                                                           ] ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentedPart"@en .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
-:BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentedEngineered"@en .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
-:BVCO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
-                                                           :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentedMaterial"@en .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_c85ad770_62d1_4fc8_9245_767cfa817252
-:BVCO_c85ad770_62d1_4fc8_9245_767cfa817252 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
-                                                           :BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentedMaterial"@en .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54
-:BVCO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ,
-                                                           :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentedPart"@en .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
-:BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentedEngineered"@en .
-
-
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939
 :GPO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
@@ -6797,6 +6753,23 @@ It defines the Kelvin unit in the SI system."""@en ;
 :GPO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "PricePerUnit"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0658b91d_0b48_4302_9065_e3b5fad4815e
+:GPO_0658b91d_0b48_4302_9065_e3b5fad4815e rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ,
+                                                          :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                            owl:someValuesFrom :GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
+                                                          ] ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentPart"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
+:GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentEngineered"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_14953156_bec6_4935_a6c5_36920348d903
@@ -6907,6 +6880,13 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Refining"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
+:GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4 rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
+                                                          :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentMaterial"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62
 :GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
@@ -6933,7 +6913,7 @@ It defines the Kelvin unit in the SI system."""@en ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0
 :GPO_9471e306_144f_4310_82bf_1415d23326e0 rdf:type owl:Class ;
-                                          rdfs:subClassOf :BVCO_c85ad770_62d1_4fc8_9245_767cfa817252 ;
+                                          rdfs:subClassOf :GPO_c85ad770_62d1_4fc8_9245_767cfa817252 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "RefinedMaterial"@en .
 
 
@@ -7001,6 +6981,13 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "MagneticFieldTreatment"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c85ad770_62d1_4fc8_9245_767cfa817252
+:GPO_c85ad770_62d1_4fc8_9245_767cfa817252 rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
+                                                          :GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentMaterial"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c879a010_1232_4d80_99f4_c53b7cbc6f4c
 :GPO_c879a010_1232_4d80_99f4_c53b7cbc6f4c rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
@@ -7012,13 +6999,20 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                            owl:someValuesFrom :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
+                                                            owl:someValuesFrom :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                            owl:someValuesFrom :BVCO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
+                                                            owl:someValuesFrom :GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
                                                           ] ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Recycling"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54
+:GPO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ,
+                                                          :GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentPart"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
@@ -7055,6 +7049,12 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "InformationalProcess"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
+:GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentEngineered"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f352a440_5fbd_42c6_bff1_e70f0e652043
 :GPO_f352a440_5fbd_42c6_bff1_e70f0e652043 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
@@ -7082,7 +7082,7 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                            owl:someValuesFrom :BVCO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
+                                                            owl:someValuesFrom :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
                                                           ] ;
                                           rdfs:comment "The actual use of a product" ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Application"@en .
