@@ -155,7 +155,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                             owl:someValuesFrom emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
+                                                             owl:someValuesFrom :GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
@@ -167,7 +167,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                             owl:someValuesFrom emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
+                                                             owl:someValuesFrom :GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
