@@ -16,6 +16,10 @@ and FaCT++-Reasoner: https://github.com/emmo-repo/EMMO/blob/master/doc/installin
 
 ## Details
 
+### Value Chain
+
+![Value Chain](docs/valuechain.png)
+
 ### Manufacturing
 
 ![Manufacturing](docs/process_manufacturing_detailed.png)
