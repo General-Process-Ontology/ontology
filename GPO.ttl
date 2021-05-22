@@ -83,13 +83,13 @@ emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdf:type owl:Class .
 
 
 ###  http://emmo.info/emmo#EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c
-emmo:EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c rdfs:subClassOf [ rdf:type owl:Class ;
-                                                                 owl:unionOf ( owl:Nothing
-                                                                               [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty emmo:EMMO_52d08d7d_e9e4_43e5_8508_d353e7e3a23a ;
-                                                                                 owl:someValuesFrom emmo:EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c
-                                                                               ]
-                                                                             )
+emmo:EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty emmo:EMMO_52d08d7d_e9e4_43e5_8508_d353e7e3a23a ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:unionOf ( emmo:EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c
+                                                                                                    owl:Nothing
+                                                                                                  )
+                                                                                    ]
                                                                ] .
 
 

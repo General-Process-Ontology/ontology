@@ -1966,13 +1966,13 @@ A 'Collection' cannot have as member another 'Collection'."""@en ,
                                                                                                     )
                                                                                       ] ;
                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13> ,
-                                                                                  [ rdf:type owl:Class ;
-                                                                                    owl:unionOf ( owl:Nothing
-                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                    owl:onProperty <http://emmo.info/emmo#EMMO_52d08d7d_e9e4_43e5_8508_d353e7e3a23a> ;
-                                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c>
-                                                                                                  ]
-                                                                                                )
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://emmo.info/emmo#EMMO_52d08d7d_e9e4_43e5_8508_d353e7e3a23a> ;
+                                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                         owl:unionOf ( <http://emmo.info/emmo#EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c>
+                                                                                                                       owl:Nothing
+                                                                                                                     )
+                                                                                                       ]
                                                                                   ] ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "OrderedElement"@en .
 
