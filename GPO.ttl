@@ -82,6 +82,17 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
 emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdf:type owl:Class .
 
 
+###  http://emmo.info/emmo#EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c
+emmo:EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c rdfs:subClassOf [ rdf:type owl:Class ;
+                                                                 owl:unionOf ( owl:Nothing
+                                                                               [ rdf:type owl:Restriction ;
+                                                                                 owl:onProperty emmo:EMMO_52d08d7d_e9e4_43e5_8508_d353e7e3a23a ;
+                                                                                 owl:someValuesFrom emmo:EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c
+                                                                               ]
+                                                                             )
+                                                               ] .
+
+
 ###  http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
 emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 rdf:type owl:Class .
 
@@ -89,6 +100,13 @@ emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 rdf:type owl:Class .
 ###  http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
 emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce rdf:type owl:Class ;
                                                rdfs:subClassOf emmo:EMMO_e0954911_fc88_492a_9830_fdb238e28cc2 .
+
+
+###  http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb
+emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                                 owl:someValuesFrom emmo:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e
+                                                               ] .
 
 
 ###  http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d
@@ -171,7 +189,6 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939
 :GPO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
-                                                          :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
                                                             owl:someValuesFrom :GPO_01cd2578_8730_4ac9_a555_9112728ea939
@@ -196,7 +213,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                             owl:someValuesFrom :GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f
                                                           ] ;
-                                          rdfs:comment "a matter transformation process, e. g. chemical synthesis"@en ;
+                                          rdfs:comment "a matter transformation process"@en ;
                                           skos:prefLabel "PhysicalProcess"@en .
 
 
@@ -344,6 +361,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "AirFlowSorting"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_70b20870_3beb_414a_b91f_2b6d234fda1a
+:GPO_70b20870_3beb_414a_b91f_2b6d234fda1a rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6 ;
+                                                            owl:someValuesFrom emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb
+                                                          ] ;
+                                          skos:prefLabel "MeasurementProcess"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1
 :GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
@@ -396,7 +423,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_aa602472_ba16_4375_b8b3_868f84324ec7
 :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
-                                          rdfs:comment "Often refered as Cathode"@en ;
+                                          rdfs:comment "Processes in which material is chemically modified, e. g. chemical synthesis"@en ;
                                           skos:prefLabel "ChemicalProcess"@en .
 
 

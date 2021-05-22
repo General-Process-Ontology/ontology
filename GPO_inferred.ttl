@@ -645,10 +645,11 @@ owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_389686f5_86d8_4e97_ba71_0537bedf0f38
 :GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 rdf:type owl:ObjectProperty ;
-                                          rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d> ,
-                                                             [ owl:inverseOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d>
+                                          rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ,
+                                                             [ owl:inverseOf <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d>
                                                              ] ;
                                           owl:inverseOf :GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560 ;
+                                          rdf:type owl:SymmetricProperty ;
                                           rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                           rdfs:range <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "hasPredecessor"@en .
@@ -672,9 +673,10 @@ owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560
 :GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560 rdf:type owl:ObjectProperty ;
-                                          rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d> ,
-                                                             [ owl:inverseOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d>
+                                          rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ,
+                                                             [ owl:inverseOf <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d>
                                                              ] ;
+                                          rdf:type owl:SymmetricProperty ;
                                           rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                           rdfs:range <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSuccessor"@en .
@@ -1963,7 +1965,15 @@ A 'Collection' cannot have as member another 'Collection'."""@en ,
                                                                                                       <http://emmo.info/emmo#EMMO_e0954911_fc88_492a_9830_fdb238e28cc2>
                                                                                                     )
                                                                                       ] ;
-                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13> ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13> ,
+                                                                                  [ rdf:type owl:Class ;
+                                                                                    owl:unionOf ( owl:Nothing
+                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://emmo.info/emmo#EMMO_52d08d7d_e9e4_43e5_8508_d353e7e3a23a> ;
+                                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_2e9ace8a_1155_45b5_a066_d5fd9774e76c>
+                                                                                                  ]
+                                                                                                )
+                                                                                  ] ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "OrderedElement"@en .
 
 
@@ -2442,6 +2452,7 @@ To avoid confusion with the concept of atom coming from physics, we will use the
 ###  http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
 <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> rdf:type owl:Class ;
                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_0277f24a_ea7f_4917_81b7_fb0406c8fc62> ,
+                                                                                  <http://emmo.info/emmo#EMMO_e0954911_fc88_492a_9830_fdb238e28cc2> ,
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d>
@@ -2513,6 +2524,10 @@ A 'Process' is not only something that unfolds in time (which is automatically r
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e>
                                                                                   ] ;
                                                                   <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "An 'observation' that results in a quantitative comparison of a 'property' of an 'object' with a standard reference."@en ;
                                                                   <http://emmo.info/emmo#EMMO_bb49844b_45d7_4f0d_8cae_8e552cbc20d6> "measurement"@en ;
@@ -6723,7 +6738,6 @@ It defines the Kelvin unit in the SI system."""@en ;
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939
 :GPO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                          :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
                                                             owl:someValuesFrom :GPO_01cd2578_8730_4ac9_a555_9112728ea939
@@ -6748,7 +6762,7 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                             owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                             owl:someValuesFrom :GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f
                                                           ] ;
-                                          rdfs:comment "a matter transformation process, e. g. chemical synthesis"@en ;
+                                          rdfs:comment "a matter transformation process"@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalProcess"@en .
 
 
@@ -6896,6 +6910,16 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "AirFlowSorting"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_70b20870_3beb_414a_b91f_2b6d234fda1a
+:GPO_70b20870_3beb_414a_b91f_2b6d234fda1a rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty <http://emmo.info/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6> ;
+                                                            owl:someValuesFrom <http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb>
+                                                          ] ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "MeasurementProcess"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1
 :GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
@@ -6948,7 +6972,7 @@ It defines the Kelvin unit in the SI system."""@en ;
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_aa602472_ba16_4375_b8b3_868f84324ec7
 :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 rdf:type owl:Class ;
                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
-                                          rdfs:comment "Often refered as Cathode"@en ;
+                                          rdfs:comment "Processes in which material is chemically modified, e. g. chemical synthesis"@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalProcess"@en .
 
 
@@ -7330,8 +7354,8 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                   owl:deprecated "Replaced by dcterms:license" .
 
 
-<http://emmo.info/emmo#EMMO_b306ae38_938e_48fe_83e9_6141e08b596f> rdfs:comment "URL to corresponding concept in the Basic Datatype Ontology (DBO)"@en ;
-                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "bdoMatch"@en ;
+<http://emmo.info/emmo#EMMO_b306ae38_938e_48fe_83e9_6141e08b596f> <http://www.w3.org/2004/02/skos/core#prefLabel> "bdoMatch"@en ;
+                                                                  rdfs:comment "URL to corresponding concept in the Basic Datatype Ontology (DBO)"@en ;
                                                                   rdfs:seeAlso "https://github.com/TechnicalBuildingSystems/Ontologies/blob/master/BasicDataTypeOntology/ontology.ttl"^^xsd:anyURI .
 
 
