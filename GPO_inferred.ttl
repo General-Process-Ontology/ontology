@@ -6766,10 +6766,22 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalProcess"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_04b6cbaf_a63a_4130_974a_8cc9c2a612f1
+:GPO_04b6cbaf_a63a_4130_974a_8cc9c2a612f1 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "EnergyTransportProcess"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6
 :GPO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "PricePerUnit"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_06512cb1_63cc_493a_84fd_44551b94d88b
+:GPO_06512cb1_63cc_493a_84fd_44551b94d88b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_8678fb81_bb19_494c_ac8e_67a0ee65b0db ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Offshore"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0658b91d_0b48_4302_9065_e3b5fad4815e
@@ -6789,6 +6801,18 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentEngineered"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0fdd8965_b9af_4e36_bdd0_7cd3dd37ab98
+:GPO_0fdd8965_b9af_4e36_bdd0_7cd3dd37ab98 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_3ac98139_d8cd_431e_89b6_a624942ff16e ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "AirVehicle"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_11ea4fa0_cb4e_4a7e_94eb_f92962db03b9
+:GPO_11ea4fa0_cb4e_4a7e_94eb_f92962db03b9 rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Container"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_14953156_bec6_4935_a6c5_36920348d903
 :GPO_14953156_bec6_4935_a6c5_36920348d903 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ;
@@ -6803,16 +6827,38 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Energy"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_18daa97a_afc7_4227_b197_38cd2c694e05
+:GPO_18daa97a_afc7_4227_b197_38cd2c694e05 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f95f16fd_4ee0_4fa9_be7f_1e562747adfd ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                            owl:someValuesFrom :GPO_39cf2373_f414_4295_92b8_7d60a91d7803
+                                                          ] ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "MiningSite"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_19430518_1a88_4ad0_916a_c903fe807520
 :GPO_19430518_1a88_4ad0_916a_c903fe807520 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "PricePerWeight"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_1973e87f_dcbd_449c_a108_fbb0a008c89b
+:GPO_1973e87f_dcbd_449c_a108_fbb0a008c89b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435 ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "City"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2189e451_0054_4e25_8679_001ec2cdad7f
 :GPO_2189e451_0054_4e25_8679_001ec2cdad7f rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_fb793a58_4083_42ad_a03c_27f594793b16 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "PressureTreatment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_23dbb0cb_8928_4bf7_807d_a0af1d7d78c7
+:GPO_23dbb0cb_8928_4bf7_807d_a0af1d7d78c7 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_3ac98139_d8cd_431e_89b6_a624942ff16e ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "WaterVehicle"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f
@@ -6833,7 +6879,16 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                             owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
                                                             owl:someValuesFrom :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8
                                                           ] ;
+                                          <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Matter with a defined shape, consisting of other EngineeredParts or a Materal. Connects Matter with Participant."@en ;
+                                          rdfs:comment "Unlike a device, the focus is on the composition and not on the role in a process"@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "EngineeredPart"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e
+:GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_5f278af9_8593_4e27_a717_ccc9e07a0ddf> ;
+                                          rdfs:comment "site, place" ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Location"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2c787420_067a_483a_b565_a9a55898210e
@@ -6847,6 +6902,22 @@ It defines the Kelvin unit in the SI system."""@en ;
 :GPO_318b082b_658a_457c_88c2_b23d780febeb rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Smelting"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_39cf2373_f414_4295_92b8_7d60a91d7803
+:GPO_39cf2373_f414_4295_92b8_7d60a91d7803 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ab6f9ec2_2d58_4c67_b40b_1f454148ec35 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                            owl:someValuesFrom :GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f
+                                                          ] ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "RawMaterialDeposit"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_3ac98139_d8cd_431e_89b6_a624942ff16e
+:GPO_3ac98139_d8cd_431e_89b6_a624942ff16e rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Vehicle"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_3af46bf2_9857_4102_a183_ab08d7cd6523
@@ -6897,6 +6968,16 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Refining"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_6525ae89_1f2a_4426_adf0_4e142def29d1
+:GPO_6525ae89_1f2a_4426_adf0_4e142def29d1 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_890abbc3_d75b_4f3f_a5b7_e1b0e898655b ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                            owl:someValuesFrom :GPO_3ac98139_d8cd_431e_89b6_a624942ff16e
+                                                          ] ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Logistics"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
 :GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4 rdf:type owl:Class ;
                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
@@ -6926,10 +7007,46 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Sintering"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_858cfdad_246e_480a_b545_69686142211b
+:GPO_858cfdad_246e_480a_b545_69686142211b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_23dbb0cb_8928_4bf7_807d_a0af1d7d78c7 ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Ship"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8678fb81_bb19_494c_ac8e_67a0ee65b0db
+:GPO_8678fb81_bb19_494c_ac8e_67a0ee65b0db rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "GeographicLocation"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_890abbc3_d75b_4f3f_a5b7_e1b0e898655b
+:GPO_890abbc3_d75b_4f3f_a5b7_e1b0e898655b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "MatterTransportProcess"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_892a00be_4101_4899_a4e0_598cce4b00e6
+:GPO_892a00be_4101_4899_a4e0_598cce4b00e6 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435 ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Country"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f
 :GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "DensitySorting"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_90552ed9_c06a_4612_8af8_8e3c6a394afa
+:GPO_90552ed9_c06a_4612_8af8_8e3c6a394afa rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f95f16fd_4ee0_4fa9_be7f_1e562747adfd ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ProductionSite"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_927388fd_eb32_4c1f_9a58_ee41a6ed55a4
+:GPO_927388fd_eb32_4c1f_9a58_ee41a6ed55a4 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_8678fb81_bb19_494c_ac8e_67a0ee65b0db ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Onshore"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546
@@ -6956,6 +7073,12 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Centrifuging"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_a3523448_8f6e_4495_a591_5e1090652e16
+:GPO_a3523448_8f6e_4495_a591_5e1090652e16 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_c26bce9d_2372_455d_a822_ee50d068907c ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Train"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b
 :GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
@@ -6974,6 +7097,12 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                           rdfs:comment "Processes in which material is chemically modified, e. g. chemical synthesis"@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalProcess"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_ab6f9ec2_2d58_4c67_b40b_1f454148ec35
+:GPO_ab6f9ec2_2d58_4c67_b40b_1f454148ec35 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "GeologicalLocation"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e
@@ -6995,6 +7124,31 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "SpecificMonetaryValue"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_bc07577b_1e4b_4d60_aa8d_3cfd09e7c03a
+:GPO_bc07577b_1e4b_4d60_aa8d_3cfd09e7c03a rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_e015afbe_407a_4dff_906a_bf0a15a93f6a ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "RoadVehicle"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_bfaebe5c_1b0a_49d4_bf14_94e8d0546197
+:GPO_bfaebe5c_1b0a_49d4_bf14_94e8d0546197 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "InformationTransportProcess"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c26bce9d_2372_455d_a822_ee50d068907c
+:GPO_c26bce9d_2372_455d_a822_ee50d068907c rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_e015afbe_407a_4dff_906a_bf0a15a93f6a ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "RailVehicle"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d
+:GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                          <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A process that manipulates the location of a participant" ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "TransportProcess"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09
 :GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09 rdf:type owl:Class ;
                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2> ;
@@ -7008,6 +7162,12 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "MagneticFieldTreatment"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435
+:GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PoliticalLocation"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c85ad770_62d1_4fc8_9245_767cfa817252
 :GPO_c85ad770_62d1_4fc8_9245_767cfa817252 rdf:type owl:Class ;
                                           rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
@@ -7019,6 +7179,12 @@ It defines the Kelvin unit in the SI system."""@en ;
 :GPO_c879a010_1232_4d80_99f4_c53b7cbc6f4c rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Sieving"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c891e59a_6ce5_4c3c_be65_d973311ad136
+:GPO_c891e59a_6ce5_4c3c_be65_d973311ad136 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_0fdd8965_b9af_4e36_bdd0_7cd3dd37ab98 ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Aircraft"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9
@@ -7046,6 +7212,18 @@ It defines the Kelvin unit in the SI system."""@en ;
 :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_fb793a58_4083_42ad_a03c_27f594793b16 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "HeatTreatment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_d89337ea_b7e4_4e81_a482_231aa25d1d39
+:GPO_d89337ea_b7e4_4e81_a482_231aa25d1d39 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_bc07577b_1e4b_4d60_aa8d_3cfd09e7c03a ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Car"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_e015afbe_407a_4dff_906a_bf0a15a93f6a
+:GPO_e015afbe_407a_4dff_906a_bf0a15a93f6a rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_3ac98139_d8cd_431e_89b6_a624942ff16e ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "LandVehicle"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266
@@ -7100,6 +7278,12 @@ It defines the Kelvin unit in the SI system."""@en ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "Filtering"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f95f16fd_4ee0_4fa9_be7f_1e562747adfd
+:GPO_f95f16fd_4ee0_4fa9_be7f_1e562747adfd rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessLocation"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9
 :GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ,
@@ -7119,6 +7303,13 @@ It defines the Kelvin unit in the SI system."""@en ;
 :GPO_fb793a58_4083_42ad_a03c_27f594793b16 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "FieldTreatment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_ffcc3d64_ad9b_4ce3_ba11_5bbf6c2c3111
+:GPO_ffcc3d64_ad9b_4ce3_ba11_5bbf6c2c3111 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_bc07577b_1e4b_4d60_aa8d_3cfd09e7c03a ;
+                                          <http://www.w3.org/2004/02/skos/core#altLabel> "Lorry" ;
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Truck"@en .
 
 
 #################################################################
@@ -7354,8 +7545,8 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                   owl:deprecated "Replaced by dcterms:license" .
 
 
-<http://emmo.info/emmo#EMMO_b306ae38_938e_48fe_83e9_6141e08b596f> <http://www.w3.org/2004/02/skos/core#prefLabel> "bdoMatch"@en ;
-                                                                  rdfs:comment "URL to corresponding concept in the Basic Datatype Ontology (DBO)"@en ;
+<http://emmo.info/emmo#EMMO_b306ae38_938e_48fe_83e9_6141e08b596f> rdfs:comment "URL to corresponding concept in the Basic Datatype Ontology (DBO)"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "bdoMatch"@en ;
                                                                   rdfs:seeAlso "https://github.com/TechnicalBuildingSystems/Ontologies/blob/master/BasicDataTypeOntology/ontology.ttl"^^xsd:anyURI .
 
 
