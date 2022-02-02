@@ -732,7 +732,8 @@ The label of this class was also changed from PhysicsDimension to PhysicalDimens
                                                                                      [ owl:inverseOf <http://emmo.info/emmo#EMMO_d7e3e4ef_953f_4f72_a728_db1fbe1a811f>
                                                                                      ] ;
                                                                   owl:inverseOf <http://emmo.info/emmo#EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5> ;
-                                                                  rdf:type owl:SymmetricProperty ;
+                                                                  rdf:type owl:SymmetricProperty ,
+                                                                           owl:IrreflexiveProperty ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "hasContactWith"@en .
 
 
@@ -3536,8 +3537,7 @@ To avoid confusion with the concept of atom coming from physics, we will use the
 
 ###  http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
 <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b> ,
-                                                                                  :GPO_9e05fb71_a666_49a9_b6b1_53595999ede1 ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b> ;
                                                                   <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A whole that is identified according to a criteria based on its temporal evolution that is satisfied throughout its time extension."@en ;
                                                                   rdfs:comment """Following the common definition of process, the reader may think that every whole should be a process, since every 4D object always has a time dimension. However, in the EMMO we restrict the meaning of the word process to items whose evolution in time have a particular meaning for the ontologist (i.e. every 4D object unfolds in time, but not every 4D time unfolding may be of interest for the ontologist and categorized as a process).
 
@@ -13697,48 +13697,11 @@ H=∑ni=1hia∗i  (n≥3)""" ;
                                                                            <http://emmo.info/emmo#EMMO_802d3e92_8770_4f98_a289_ccaaab7fdddf> ,
                                                                            <http://emmo.info/emmo#EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d> ,
                                                                            <http://emmo.info/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de> ;
-                                                                  <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> <http://emmo.info/emmo#EMMO_08cb807c_e626_447b_863f_e2835540e918> ;
-                                                                  <http://emmo.info/emmo#EMMO_3f2e4ac2_8ef3_4a14_b826_60d37f15f8ee> <http://emmo.info/emmo#EMMO_08cb807c_e626_447b_863f_e2835540e918> ;
-                                                                  <http://emmo.info/emmo#EMMO_d893d373_b579_4867_841e_1c2b31a8d2c6> <http://emmo.info/emmo#EMMO_08cb807c_e626_447b_863f_e2835540e918> ;
-                                                                  <http://emmo.info/emmo#EMMO_ec2472ae_cf4a_46a5_8555_1556f5a6c3c5> <http://emmo.info/emmo#EMMO_08cb807c_e626_447b_863f_e2835540e918> ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Universe"@en .
 
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
 ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
 
 [ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
  ] .
@@ -13752,7 +13715,40 @@ H=∑ni=1hia∗i  (n≥3)""" ;
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 #################################################################
