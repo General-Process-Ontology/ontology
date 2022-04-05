@@ -201,16 +201,53 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 
+###  https://gpo.ontology.link#GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8
+:GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_b10580a1_fb72_4151_a573_bbef22bae02b ;
+                                          rdfs:label "LiquidExtraction"@en .
+
+
+###  https://gpo.ontology.link#GPO_285d777d_6e73_444f_9a10_03983157b457
+:GPO_285d777d_6e73_444f_9a10_03983157b457 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e ;
+                                          rdfs:label "VacuumTreatment"@en .
+
+
+###  https://gpo.ontology.link#GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f
+:GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ;
+                                          rdfs:label "WaterExtraction"@en .
+
+
+###  https://gpo.ontology.link#GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e
+:GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2189e451_0054_4e25_8679_001ec2cdad7f ;
+                                          rdfs:label "UnderpressureTreatment"@en .
+
+
 ###  https://gpo.ontology.link#GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d
 :GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
                                           rdfs:label "Stacking"@en .
 
 
+###  https://gpo.ontology.link#GPO_66366e89_4a13_4996_b887_a127e498ed98
+:GPO_66366e89_4a13_4996_b887_a127e498ed98 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ,
+                                                          :GPO_285d777d_6e73_444f_9a10_03983157b457 ;
+                                          rdfs:label "VacuumDrying"@en .
+
+
 ###  https://gpo.ontology.link#GPO_b10580a1_fb72_4151_a573_bbef22bae02b
 :GPO_b10580a1_fb72_4151_a573_bbef22bae02b rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
                                           rdfs:label "Extraction"@en .
+
+
+###  https://gpo.ontology.link#GPO_c8e0ab0c_1a3d_4184_969e_5476ab0bb36d
+:GPO_c8e0ab0c_1a3d_4184_969e_5476ab0bb36d rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_b10580a1_fb72_4151_a573_bbef22bae02b ;
+                                          rdfs:label "LiquidMediumExtraction"@en .
 
 
 ###  https://gpo.ontology.link#GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492
@@ -873,7 +910,8 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190
 :GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ,
+                                          rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ,
+                                                          :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
                                                             owl:someValuesFrom :GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
