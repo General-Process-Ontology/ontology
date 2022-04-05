@@ -42,6 +42,12 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                           skos:prefLabel "fulfillsRole"@en .
 
 
+###  https://gpo.ontology.link/GPO_25f1a7da_895c_4d9b_b688_95b7deed7a80
+:GPO_25f1a7da_895c_4d9b_b688_95b7deed7a80 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b ;
+                                          rdfs:label "HasObject"@en .
+
+
 ###  https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38
 :GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
@@ -73,6 +79,12 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                           rdf:type owl:SymmetricProperty ;
                                           rdfs:comment "preserved from emmo beta 1" ;
                                           rdfs:label "hasSpatialNext"@en .
+
+
+###  https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0
+:GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b ;
+                                          rdfs:label "HasSubject"@en .
 
 
 ###  https://gpo.ontology.link/GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560
@@ -187,46 +199,6 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 
 ###  http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
-
-
-###  https://gpo.ontology.link#GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0
-:GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0 rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                            owl:someValuesFrom emmo:EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5
-                                                          ] ;
-                                          rdfs:label "ObjectParameter"@de .
-
-
-###  https://gpo.ontology.link#GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780
-:GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0 ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8 ;
-                                                            owl:someValuesFrom :GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
-                                                          ] ;
-                                          rdfs:label "ObjectHumidity"@de .
-
-
-###  https://gpo.ontology.link#GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190
-:GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                            owl:someValuesFrom :GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
-                                                          ] ;
-                                          rdfs:label "ThermalDrying"@de .
-
-
-###  https://gpo.ontology.link#GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
-:GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681 ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                            owl:someValuesFrom emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f
-                                                          ] ;
-                                          rdfs:label "DryingTemperature"@de .
 
 
 ###  https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939
@@ -443,6 +415,35 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Mining"@en .
 
 
+###  https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b
+:GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
+                                                            owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                 owl:unionOf ( emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
+                                                                                               emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606
+                                                                                               :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b
+                                                                                             )
+                                                                               ]
+                                                          ] ;
+                                          emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement that refers to a process, object or other parameter."@en ,
+                                                                                         "Eine Aussage, die sich auf einen Prozess, ein Objekt oder einen anderen Parameter bezieht."@de ;
+                                          rdfs:label "SemanticParameter"@en .
+
+
+###  https://gpo.ontology.link/GPO_44654615_7e14_48f0_a291_63b8ace3a07a
+:GPO_44654615_7e14_48f0_a291_63b8ace3a07a rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
+                                                            owl:someValuesFrom :GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4
+                                                          ] ;
+                                          emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement whose subject is itself a statement."@en ,
+                                                                                         "Eine Aussage, deren Subjekt selbst eine Aussage ist."@de ;
+                                          rdfs:label "NestedSemanticStatement"@en .
+
+
 ###  https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232
 :GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a ,
@@ -467,7 +468,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe
 :GPO_47df1439_d8e2_4392_8e90_258103fbb4fe rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904 ;
-                                          rdfs:label "MixingDevice"@de .
+                                          rdfs:label "MixingDevice"@en .
 
 
 ###  https://gpo.ontology.link/GPO_5c298112_0e26_42fe_9984_dadfcee54007
@@ -508,10 +509,43 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "SpentMaterial"@en .
 
 
+###  https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0
+:GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom emmo:EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
+                                                            owl:someValuesFrom emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606
+                                                          ] ;
+                                          emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement that refers to an object."@en ,
+                                                                                         "Eine Aussage, die sich auf ein Objekt bezieht."@de ;
+                                          rdfs:label "ObjectParameter"@en .
+
+
 ###  https://gpo.ontology.link/GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62
 :GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
                                           skos:prefLabel "AirFlowSorting"@en .
+
+
+###  https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4
+:GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                                            owl:someValuesFrom emmo:EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
+                                                            owl:someValuesFrom emmo:EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de
+                                                          ] ;
+                                          emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "An implicit assignment of an attribute and an object to any subject. Optionally, a reference and qualifier can also be specified. If the subject is itself a statement, it is a nested statement."@en ,
+                                                                                         "Eine Implizite Zuordnung von einem Attribut und einem Objekt zu einem beliebigen Subjekt. Optional können zudem ein Referenzen und Qualifier angegeben werden. Ist das Subjekt selbst eine Aussage, liegt eine verschachtelte Aussage vor."@de ;
+                                          rdfs:label "SemanticStatement"@en ;
+                                          rdfs:seeAlso "https://www.wikidata.org/wiki/Help:Statements" .
 
 
 ###  https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a
@@ -531,7 +565,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
                                                             owl:someValuesFrom emmo:EMMO_81369540_1b0e_471b_9bae_6801af22800e
                                                           ] ;
-                                          rdfs:label "MixingSpeed"@de .
+                                          rdfs:label "MixingSpeed"@en .
 
 
 ###  https://gpo.ontology.link/GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1
@@ -666,6 +700,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "ElectricFieldTreatment"@en .
 
 
+###  https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780
+:GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8 ;
+                                                            owl:someValuesFrom :GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
+                                                          ] ;
+                                          rdfs:label "ObjectHumidity"@en .
+
+
 ###  https://gpo.ontology.link/GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381
 :GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e ;
@@ -716,6 +760,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "PoliticalLocation"@en .
 
 
+###  https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190
+:GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom :GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
+                                                          ] ;
+                                          rdfs:label "ThermalDrying"@en .
+
+
 ###  https://gpo.ontology.link/GPO_c85ad770_62d1_4fc8_9245_767cfa817252
 :GPO_c85ad770_62d1_4fc8_9245_767cfa817252 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 ,
@@ -754,6 +808,18 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:subClassOf :GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ,
                                                           :GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a ;
                                           skos:prefLabel "UnspentPart"@en .
+
+
+###  https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564
+:GPO_d03aba82_5af3_4553_9595_3883242b4564 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
+                                                            owl:someValuesFrom :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b
+                                                          ] ;
+                                          emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement that refers to an other parameter."@en ,
+                                                                                         "Eine Aussage, die sich auf einen anderen Parameter bezieht."@de ;
+                                          rdfs:label "NestedSemanticParameter"@en .
 
 
 ###  https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
@@ -816,12 +882,18 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681
 :GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681 rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c ,
+                                          rdfs:subClassOf :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
                                                             owl:someValuesFrom emmo:EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
+                                                            owl:someValuesFrom emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
                                                           ] ;
-                                          rdfs:label "ProcessParameter"@de .
+                                          emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement that refers to a process."@en ,
+                                                                                         "Eine Aussage, die sich auf einen Prozess bezieht."@de ;
+                                          rdfs:label "ProcessParameter"@en .
 
 
 ###  https://gpo.ontology.link/GPO_f535f871_95e7_46e2_8d62_f77bf9402987
@@ -873,6 +945,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_fb793a58_4083_42ad_a03c_27f594793b16 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
                                           skos:prefLabel "FieldTreatment"@en .
+
+
+###  https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
+:GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f
+                                                          ] ;
+                                          rdfs:label "DryingTemperature"@en .
 
 
 ###  https://gpo.ontology.link/GPO_ffcc3d64_ad9b_4ce3_ba11_5bbf6c2c3111
