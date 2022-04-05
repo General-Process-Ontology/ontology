@@ -201,6 +201,30 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 
+###  https://gpo.ontology.link#GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d
+:GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:label "Stacking"@en .
+
+
+###  https://gpo.ontology.link#GPO_b10580a1_fb72_4151_a573_bbef22bae02b
+:GPO_b10580a1_fb72_4151_a573_bbef22bae02b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
+                                          rdfs:label "Extraction"@en .
+
+
+###  https://gpo.ontology.link#GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492
+:GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215 ;
+                                          rdfs:label "EndOfLineTesting"@en .
+
+
+###  https://gpo.ontology.link#GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215
+:GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_70b20870_3beb_414a_b91f_2b6d234fda1a ;
+                                          rdfs:label "Testing"@en .
+
+
 ###  https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939
 :GPO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
@@ -287,6 +311,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Container"@en .
 
 
+###  https://gpo.ontology.link/GPO_13cf7fc2_c0d4_4060_97c8_93e929870f5b
+:GPO_13cf7fc2_c0d4_4060_97c8_93e929870f5b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
+                                          rdfs:label "Punching"@en .
+
+
 ###  https://gpo.ontology.link/GPO_14953156_bec6_4935_a6c5_36920348d903
 :GPO_14953156_bec6_4935_a6c5_36920348d903 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_01cd2578_8730_4ac9_a555_9112728ea939 ;
@@ -365,6 +395,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "EngineeredPart"@en .
 
 
+###  https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6
+:GPO_275452d1_abaa_4c59_b4af_2f14332209c6 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
+                                          rdfs:label "Cutting"@en .
+
+
 ###  https://gpo.ontology.link/GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e
 :GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_b5957cef_a287_442d_a3ce_fd39f20ba1cd ;
@@ -415,6 +451,18 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Mining"@en .
 
 
+###  https://gpo.ontology.link/GPO_3e188141_576f_43fc_8149_30c061fcb588
+:GPO_3e188141_576f_43fc_8149_30c061fcb588 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_b28dc33d_0d96_4441_9686_7327becdcbc1 ;
+                                          rdfs:label "Polarization"@en .
+
+
+###  https://gpo.ontology.link/GPO_4189adb4_357e_45af_a3ca_e5f551e6554c
+:GPO_4189adb4_357e_45af_a3ca_e5f551e6554c rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+                                          rdfs:label "Comminution"@en .
+
+
 ###  https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b
 :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4 ,
@@ -447,7 +495,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232
 :GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a ,
-                                                          :GPO_14953156_bec6_4935_a6c5_36920348d903 ,
+                                                          :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ,
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                                             owl:someValuesFrom :GPO_47df1439_d8e2_4392_8e90_258103fbb4fe
@@ -461,7 +509,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4
 :GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
+                                          rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
                                           skos:prefLabel "Sorting"@en .
 
 
@@ -469,6 +517,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_47df1439_d8e2_4392_8e90_258103fbb4fe rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904 ;
                                           rdfs:label "MixingDevice"@en .
+
+
+###  https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212
+:GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252 ,
+                                                          :GPO_14953156_bec6_4935_a6c5_36920348d903 ;
+                                          rdfs:label "Integration"@en .
 
 
 ###  https://gpo.ontology.link/GPO_5c298112_0e26_42fe_9984_dadfcee54007
@@ -502,11 +557,23 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Logistics"@en .
 
 
+###  https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794
+:GPO_65e00d30_9d66_4018_a7b9_a671729a1794 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b ;
+                                          rdfs:label "Sealing"@en .
+
+
 ###  https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
 :GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 ,
                                                           :GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1 ;
                                           skos:prefLabel "SpentMaterial"@en .
+
+
+###  https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a
+:GPO_680078b4_e669_407d_a9a5_902c1f55031a rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:label "Filling"@en .
 
 
 ###  https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0
@@ -554,6 +621,14 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty emmo:EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6 ;
                                                             owl:someValuesFrom emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                            owl:someValuesFrom :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd
                                                           ] ;
                                           skos:prefLabel "MeasurementProcess"@en .
 
@@ -566,6 +641,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                             owl:someValuesFrom emmo:EMMO_81369540_1b0e_471b_9bae_6801af22800e
                                                           ] ;
                                           rdfs:label "MixingSpeed"@en .
+
+
+###  https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b
+:GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:label "Welding"@en .
 
 
 ###  https://gpo.ontology.link/GPO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1
@@ -649,10 +730,22 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:label "TemporalOrderedElement"@en .
 
 
+###  https://gpo.ontology.link/GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9
+:GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_b28dc33d_0d96_4441_9686_7327becdcbc1 ;
+                                          rdfs:label "ChargeTreatment"@en .
+
+
 ###  https://gpo.ontology.link/GPO_a1c93821_6eec_44f1_9323_acc7eb737650
 :GPO_a1c93821_6eec_44f1_9323_acc7eb737650 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
                                           skos:prefLabel "Centrifuging"@en .
+
+
+###  https://gpo.ontology.link/GPO_a32722d5_42c1_446f_a071_05071047831f
+:GPO_a32722d5_42c1_446f_a071_05071047831f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
+                                          rdfs:label "Degassing"@en .
 
 
 ###  https://gpo.ontology.link/GPO_a3523448_8f6e_4495_a591_5e1090652e16
@@ -674,6 +767,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Information"@en .
 
 
+###  https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8
+:GPO_aa217fba_9840_4176_98a6_e247cf0181c8 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+                                          rdfs:label "Separation"@en .
+
+
 ###  https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7
 :GPO_aa602472_ba16_4375_b8b3_868f84324ec7 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
@@ -693,11 +792,23 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "MonetaryValue"@en .
 
 
+###  https://gpo.ontology.link/GPO_ad83fdc3_f3ec_4037_b06f_1675a531f29f
+:GPO_ad83fdc3_f3ec_4037_b06f_1675a531f29f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b ;
+                                          rdfs:label "UltrasonicWelding"@en .
+
+
 ###  https://gpo.ontology.link/GPO_b28dc33d_0d96_4441_9686_7327becdcbc1
 :GPO_b28dc33d_0d96_4441_9686_7327becdcbc1 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_fb793a58_4083_42ad_a03c_27f594793b16 ;
                                           rdfs:comment "Polarization, e.g. for piezoelectric materials" ;
                                           skos:prefLabel "ElectricFieldTreatment"@en .
+
+
+###  https://gpo.ontology.link/GPO_b5d10f88_327a_4603_8a3a_d55f3685836f
+:GPO_b5d10f88_327a_4603_8a3a_d55f3685836f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b ;
+                                          rdfs:label "LaserWelding"@en .
 
 
 ###  https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780
@@ -842,7 +953,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266
 :GPO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+                                          rdfs:subClassOf :GPO_4189adb4_357e_45af_a3ca_e5f551e6554c ;
                                           skos:prefLabel "Milling"@en .
 
 
@@ -898,7 +1009,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_f535f871_95e7_46e2_8d62_f77bf9402987
 :GPO_f535f871_95e7_46e2_8d62_f77bf9402987 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+                                          rdfs:subClassOf :GPO_4189adb4_357e_45af_a3ca_e5f551e6554c ;
                                           skos:prefLabel "Crushing"@en .
 
 
