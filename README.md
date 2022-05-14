@@ -14,6 +14,10 @@ Based on EMMO: https://github.com/emmo-repo/EMMO
 using Protégé: https://github.com/emmo-repo/EMMO/blob/master/doc/protege-setup.md
 and FaCT++-Reasoner: https://github.com/emmo-repo/EMMO/blob/master/doc/installing_factplusplus.md
 
+## Applications
+* https://github.com/Battery-Value-Chain-Ontology/ontology
+* https://github.com/OpenSemanticLab
+
 ## Details
 
 ### Value Chain
