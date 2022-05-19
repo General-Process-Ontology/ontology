@@ -12,7 +12,7 @@
 @base <https://gpo.ontology.link> .
 
 <https://gpo.ontology.link> rdf:type owl:Ontology ;
-                             owl:imports <http://emmo.info/emmo/1.0.0-beta3/reference> ;
+                             owl:imports <http://emmo.info/emmo/reference/1.0.0-beta3> ;
                              terms:abstract "Ontology to model processes"@en ;
                              terms:creator "Simon Stier <simon.stier@isc.fraunhofer.de>"@en ;
                              terms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en .
@@ -34,30 +34,6 @@ emmo:EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5 rdf:type owl:ObjectProperty ,
 emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
 
 
-###  https://gpo.ontology.link#GPO_39014ab3_e461_444a_a4a7_a0361550f800
-:GPO_39014ab3_e461_444a_a4a7_a0361550f800 rdf:type owl:ObjectProperty ;
-                                          rdfs:subPropertyOf :GPO_869d7b15_2918_4064_be6b_241d4f7dc79e ;
-                                          skos:prefLabel "HasSemanticParameter"@en .
-
-
-###  https://gpo.ontology.link#GPO_869d7b15_2918_4064_be6b_241d4f7dc79e
-:GPO_869d7b15_2918_4064_be6b_241d4f7dc79e rdf:type owl:ObjectProperty ;
-                                          rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
-                                          skos:prefLabel "HasSemanticStatement"@en .
-
-
-###  https://gpo.ontology.link#GPO_d9f99371_6c00_41a0_9676_bbb150b317fb
-:GPO_d9f99371_6c00_41a0_9676_bbb150b317fb rdf:type owl:ObjectProperty ;
-                                          rdfs:subPropertyOf :GPO_e5028661_972c_4977_947b_29a744f5e893 ;
-                                          skos:prefLabel "HasConventionalSemanticParameter"@en .
-
-
-###  https://gpo.ontology.link#GPO_e5028661_972c_4977_947b_29a744f5e893
-:GPO_e5028661_972c_4977_947b_29a744f5e893 rdf:type owl:ObjectProperty ;
-                                          rdfs:subPropertyOf :GPO_869d7b15_2918_4064_be6b_241d4f7dc79e ;
-                                          skos:prefLabel "HasConventionalSemanticStatement"@en .
-
-
 ###  https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305
 :GPO_0c25c011_9320_461f_bc23_6e9691827305 rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf emmo:EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291 ;
@@ -72,6 +48,12 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                           rdfs:label "HasObject"@en .
 
 
+###  https://gpo.ontology.link/GPO_2d23e608_57f5_4d0d_ba4e_c06ab274e101
+:GPO_2d23e608_57f5_4d0d_ba4e_c06ab274e101 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                          rdfs:label "hasTool"@en .
+
+
 ###  https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38
 :GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d ;
@@ -81,12 +63,24 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                           skos:prefLabel "hasPredecessor"@en .
 
 
+###  https://gpo.ontology.link/GPO_39014ab3_e461_444a_a4a7_a0361550f800
+:GPO_39014ab3_e461_444a_a4a7_a0361550f800 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf :GPO_869d7b15_2918_4064_be6b_241d4f7dc79e ;
+                                          skos:prefLabel "HasSemanticParameter"@en .
+
+
 ###  https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75
 :GPO_703ec528_ea40_486e_9924_b911782b1a75 rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
                                           rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
                                           rdfs:range emmo:EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d ;
                                           skos:prefLabel "hasInput"@en .
+
+
+###  https://gpo.ontology.link/GPO_869d7b15_2918_4064_be6b_241d4f7dc79e
+:GPO_869d7b15_2918_4064_be6b_241d4f7dc79e rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 ;
+                                          skos:prefLabel "HasSemanticStatement"@en .
 
 
 ###  https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb
@@ -121,6 +115,18 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                           skos:prefLabel "hasSuccessor"@en .
 
 
+###  https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb
+:GPO_d9f99371_6c00_41a0_9676_bbb150b317fb rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf :GPO_e5028661_972c_4977_947b_29a744f5e893 ;
+                                          skos:prefLabel "HasConventionalSemanticParameter"@en .
+
+
+###  https://gpo.ontology.link/GPO_e5028661_972c_4977_947b_29a744f5e893
+:GPO_e5028661_972c_4977_947b_29a744f5e893 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf :GPO_869d7b15_2918_4064_be6b_241d4f7dc79e ;
+                                          skos:prefLabel "HasConventionalSemanticStatement"@en .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -131,6 +137,10 @@ emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdf:type owl:Class .
 
 ###  http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
 emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490
+emmo:EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490 owl:equivalentClass :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd .
 
 
 ###  http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
@@ -230,179 +240,6 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 
-###  https://gpo.ontology.link#GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8
-:GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_b10580a1_fb72_4151_a573_bbef22bae02b ;
-                                          rdfs:label "LiquidExtraction"@en .
-
-
-###  https://gpo.ontology.link#GPO_087bb572_444a_4928_8e97_6d9fbf81e355
-:GPO_087bb572_444a_4928_8e97_6d9fbf81e355 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
-                                          rdfs:label "SoftwarePackage"@en .
-
-
-###  https://gpo.ontology.link#GPO_0af58599_9d3d_480b_b28c_85bba198dc96
-:GPO_0af58599_9d3d_480b_b28c_85bba198dc96 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
-                                          rdfs:label "CallableFunction"@en .
-
-
-###  https://gpo.ontology.link#GPO_285d777d_6e73_444f_9a10_03983157b457
-:GPO_285d777d_6e73_444f_9a10_03983157b457 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e ;
-                                          rdfs:label "VacuumTreatment"@en .
-
-
-###  https://gpo.ontology.link#GPO_2fec7b20_a62c_4a34_b558_de0c20e32b2b
-:GPO_2fec7b20_a62c_4a34_b558_de0c20e32b2b rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_087bb572_444a_4928_8e97_6d9fbf81e355 ;
-                                          rdfs:label "SoftwareRepository"@en .
-
-
-###  https://gpo.ontology.link#GPO_346074e2_96ff_4124_8ee9_2015c99a0b47
-:GPO_346074e2_96ff_4124_8ee9_2015c99a0b47 rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_d9588363_bf09_4d5d_95d3_cd9b203a3b61 ;
-                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of data defined by implicit or explicit selection criteria. May contain multiply files or rows of a database. Typically stored in memory, not on disk." ;
-                                          rdfs:label "DataSet"@en .
-
-
-###  https://gpo.ontology.link#GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f
-:GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ;
-                                          rdfs:label "WaterExtraction"@en .
-
-
-###  https://gpo.ontology.link#GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e
-:GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_2189e451_0054_4e25_8679_001ec2cdad7f ;
-                                          rdfs:label "UnderpressureTreatment"@en .
-
-
-###  https://gpo.ontology.link#GPO_49677fd4_666a_483d_870b_30163391951a
-:GPO_49677fd4_666a_483d_870b_30163391951a rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_d9588363_bf09_4d5d_95d3_cd9b203a3b61 ;
-                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An encapsulated and persistant blob of information" ;
-                                          rdfs:label "File"@en .
-
-
-###  https://gpo.ontology.link#GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d
-:GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
-                                          rdfs:label "Stacking"@en .
-
-
-###  https://gpo.ontology.link#GPO_66366e89_4a13_4996_b887_a127e498ed98
-:GPO_66366e89_4a13_4996_b887_a127e498ed98 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ,
-                                                          :GPO_285d777d_6e73_444f_9a10_03983157b457 ;
-                                          rdfs:label "VacuumDrying"@en .
-
-
-###  https://gpo.ontology.link#GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1
-:GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe ;
-                                          rdfs:label "SoftwareTool"@en .
-
-
-###  https://gpo.ontology.link#GPO_849a339d_834e_40c0_b19c_168bccbeacfb
-:GPO_849a339d_834e_40c0_b19c_168bccbeacfb rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0 ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
-                                                            owl:someValuesFrom :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1
-                                                          ] ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                                            owl:someValuesFrom :GPO_a292bb5c_4596_48ac_8602_a3481bba5c05
-                                                          ] ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                            owl:someValuesFrom :GPO_a292bb5c_4596_48ac_8602_a3481bba5c05
-                                                          ] ;
-                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The application of software to transform information" ;
-                                          rdfs:label "SoftwareApplication"@en .
-
-
-###  https://gpo.ontology.link#GPO_983507d5_1d17_4846_9142_2c8baecf0b01
-:GPO_983507d5_1d17_4846_9142_2c8baecf0b01 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_0af58599_9d3d_480b_b28c_85bba198dc96 ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty [ owl:inverseOf emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
-                                                                           ] ;
-                                                            owl:someValuesFrom :GPO_087bb572_444a_4928_8e97_6d9fbf81e355
-                                                          ] ;
-                                          rdfs:label "LocalFunction"@en .
-
-
-###  https://gpo.ontology.link#GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1
-:GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_2fec7b20_a62c_4a34_b558_de0c20e32b2b ;
-                                          rdfs:label "GitRepository"@en .
-
-
-###  https://gpo.ontology.link#GPO_a292bb5c_4596_48ac_8602_a3481bba5c05
-:GPO_a292bb5c_4596_48ac_8602_a3481bba5c05 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b ;
-                                          rdfs:label "SoftwareParameter"@en .
-
-
-###  https://gpo.ontology.link#GPO_a67b28a1_7038_4155_9efc_64de98b436ad
-:GPO_a67b28a1_7038_4155_9efc_64de98b436ad rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_087bb572_444a_4928_8e97_6d9fbf81e355 ;
-                                          rdfs:label "PythonPackage"@en .
-
-
-###  https://gpo.ontology.link#GPO_b10580a1_fb72_4151_a573_bbef22bae02b
-:GPO_b10580a1_fb72_4151_a573_bbef22bae02b rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
-                                          rdfs:label "Extraction"@en .
-
-
-###  https://gpo.ontology.link#GPO_c8e0ab0c_1a3d_4184_969e_5476ab0bb36d
-:GPO_c8e0ab0c_1a3d_4184_969e_5476ab0bb36d rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_b10580a1_fb72_4151_a573_bbef22bae02b ;
-                                          rdfs:label "LiquidMediumExtraction"@en .
-
-
-###  https://gpo.ontology.link#GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1
-:GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1 rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe ;
-                                          rdfs:label "HardwareTool"@en .
-
-
-###  https://gpo.ontology.link#GPO_cb7f3ab6_4976_409e_9edf_bb8c84eb1d54
-:GPO_cb7f3ab6_4976_409e_9edf_bb8c84eb1d54 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_0af58599_9d3d_480b_b28c_85bba198dc96 ;
-                                          rdfs:label "RemoteApi"@en .
-
-
-###  https://gpo.ontology.link#GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4
-:GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4 rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5 ,
-                                                          :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
-                                          rdfs:label "SoftwareModel"@en .
-
-
-###  https://gpo.ontology.link#GPO_dcb10cbc_f367_4f9f_b2b2_fe11195a087c
-:GPO_dcb10cbc_f367_4f9f_b2b2_fe11195a087c rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_f94e509a_be29_4365_a4cd_70165e47e232 ,
-                                                          :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
-                                          rdfs:label "SimulationSoftware"@en .
-
-
-###  https://gpo.ontology.link#GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492
-:GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215 ;
-                                          rdfs:label "EndOfLineTesting"@en .
-
-
-###  https://gpo.ontology.link#GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215
-:GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215 rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_70b20870_3beb_414a_b91f_2b6d234fda1a ;
-                                          rdfs:label "Testing"@en .
-
-
 ###  https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939
 :GPO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
@@ -442,6 +279,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "PhysicalProcess"@en .
 
 
+###  https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8
+:GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_b10580a1_fb72_4151_a573_bbef22bae02b ;
+                                          rdfs:label "LiquidExtraction"@en .
+
+
 ###  https://gpo.ontology.link/GPO_04b6cbaf_a63a_4130_974a_8cc9c2a612f1
 :GPO_04b6cbaf_a63a_4130_974a_8cc9c2a612f1 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d ;
@@ -469,6 +312,18 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                             owl:someValuesFrom :GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
                                                           ] ;
                                           skos:prefLabel "SpentPart"@en .
+
+
+###  https://gpo.ontology.link/GPO_087bb572_444a_4928_8e97_6d9fbf81e355
+:GPO_087bb572_444a_4928_8e97_6d9fbf81e355 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
+                                          rdfs:label "SoftwarePackage"@en .
+
+
+###  https://gpo.ontology.link/GPO_0af58599_9d3d_480b_b28c_85bba198dc96
+:GPO_0af58599_9d3d_480b_b28c_85bba198dc96 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
+                                          rdfs:label "CallableFunction"@en .
 
 
 ###  https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
@@ -579,6 +434,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:label "Cutting"@en .
 
 
+###  https://gpo.ontology.link/GPO_285d777d_6e73_444f_9a10_03983157b457
+:GPO_285d777d_6e73_444f_9a10_03983157b457 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e ;
+                                          rdfs:label "VacuumTreatment"@en .
+
+
 ###  https://gpo.ontology.link/GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e
 :GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_b5957cef_a287_442d_a3ce_fd39f20ba1cd ;
@@ -593,10 +454,23 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Ore"@en .
 
 
+###  https://gpo.ontology.link/GPO_2fec7b20_a62c_4a34_b558_de0c20e32b2b
+:GPO_2fec7b20_a62c_4a34_b558_de0c20e32b2b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_087bb572_444a_4928_8e97_6d9fbf81e355 ;
+                                          rdfs:label "SoftwareRepository"@en .
+
+
 ###  https://gpo.ontology.link/GPO_318b082b_658a_457c_88c2_b23d780febeb
 :GPO_318b082b_658a_457c_88c2_b23d780febeb rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
                                           skos:prefLabel "Smelting"@en .
+
+
+###  https://gpo.ontology.link/GPO_346074e2_96ff_4124_8ee9_2015c99a0b47
+:GPO_346074e2_96ff_4124_8ee9_2015c99a0b47 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Set of data defined by implicit or explicit selection criteria. May contain multiply files or rows of a database. Typically stored in memory, not on disk." ;
+                                          rdfs:label "DataObject"@en .
 
 
 ###  https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803
@@ -627,6 +501,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                             owl:someValuesFrom :GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f
                                                           ] ;
                                           skos:prefLabel "Mining"@en .
+
+
+###  https://gpo.ontology.link/GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f
+:GPO_3e035b43_43cc_475d_aa31_185eaff4aa6f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ;
+                                          rdfs:label "WaterExtraction"@en .
 
 
 ###  https://gpo.ontology.link/GPO_3e188141_576f_43fc_8149_30c061fcb588
@@ -697,6 +577,19 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:label "MixingDevice"@en .
 
 
+###  https://gpo.ontology.link/GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e
+:GPO_48094cc5_05e6_4f0b_b8c2_5561497f8a8e rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2189e451_0054_4e25_8679_001ec2cdad7f ;
+                                          rdfs:label "UnderpressureTreatment"@en .
+
+
+###  https://gpo.ontology.link/GPO_49677fd4_666a_483d_870b_30163391951a
+:GPO_49677fd4_666a_483d_870b_30163391951a rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660 ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "An encapsulated and persistant blob of information" ;
+                                          rdfs:label "File"@en .
+
+
 ###  https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212
 :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252 ,
@@ -708,6 +601,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_5c298112_0e26_42fe_9984_dadfcee54007 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ;
                                           skos:prefLabel "RotaryMixing"@en .
+
+
+###  https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d
+:GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:label "Stacking"@en .
 
 
 ###  https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24
@@ -739,6 +638,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_65e00d30_9d66_4018_a7b9_a671729a1794 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b ;
                                           rdfs:label "Sealing"@en .
+
+
+###  https://gpo.ontology.link/GPO_66366e89_4a13_4996_b887_a127e498ed98
+:GPO_66366e89_4a13_4996_b887_a127e498ed98 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ,
+                                                          :GPO_285d777d_6e73_444f_9a10_03983157b457 ;
+                                          rdfs:label "VacuumDrying"@en .
 
 
 ###  https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
@@ -774,6 +680,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
                                           skos:prefLabel "AirFlowSorting"@en .
+
+
+###  https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1
+:GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe ;
+                                          rdfs:label "SoftwareTool"@en .
 
 
 ###  https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4
@@ -833,6 +745,25 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Sintering"@en .
 
 
+###  https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb
+:GPO_849a339d_834e_40c0_b19c_168bccbeacfb rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                            owl:someValuesFrom :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom :GPO_a292bb5c_4596_48ac_8602_a3481bba5c05
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                            owl:someValuesFrom :GPO_a292bb5c_4596_48ac_8602_a3481bba5c05
+                                                          ] ;
+                                          emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "The application of software to transform information" ;
+                                          rdfs:label "SoftwareApplication"@en .
+
+
 ###  https://gpo.ontology.link/GPO_858cfdad_246e_480a_b545_69686142211b
 :GPO_858cfdad_246e_480a_b545_69686142211b rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_23dbb0cb_8928_4bf7_807d_a0af1d7d78c7 ;
@@ -887,10 +818,27 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "RefinedMaterial"@en .
 
 
+###  https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01
+:GPO_983507d5_1d17_4846_9142_2c8baecf0b01 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_0af58599_9d3d_480b_b28c_85bba198dc96 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty [ owl:inverseOf emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
+                                                                           ] ;
+                                                            owl:someValuesFrom :GPO_087bb572_444a_4928_8e97_6d9fbf81e355
+                                                          ] ;
+                                          rdfs:label "LocalFunction"@en .
+
+
 ###  https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270
 :GPO_995475ba_f196_4b19_a7c7_38d032c59270 rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9 ;
                                           skos:prefLabel "Role"@en .
+
+
+###  https://gpo.ontology.link/GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1
+:GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2fec7b20_a62c_4a34_b558_de0c20e32b2b ;
+                                          rdfs:label "GitRepository"@en .
 
 
 ###  https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1
@@ -920,6 +868,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "Centrifuging"@en .
 
 
+###  https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05
+:GPO_a292bb5c_4596_48ac_8602_a3481bba5c05 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b ;
+                                          rdfs:label "SoftwareParameter"@en .
+
+
 ###  https://gpo.ontology.link/GPO_a32722d5_42c1_446f_a071_05071047831f
 :GPO_a32722d5_42c1_446f_a071_05071047831f rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
@@ -938,11 +892,17 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "SizeSorting"@en .
 
 
+###  https://gpo.ontology.link/GPO_a67b28a1_7038_4155_9efc_64de98b436ad
+:GPO_a67b28a1_7038_4155_9efc_64de98b436ad rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_087bb572_444a_4928_8e97_6d9fbf81e355 ;
+                                          rdfs:label "PythonPackage"@en .
+
+
 ###  https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd
 :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd rdf:type owl:Class ;
                                           rdfs:subClassOf emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 ,
                                                           emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d ;
-                                          skos:prefLabel "Information"@en .
+                                          skos:prefLabel "InformationStructure"@en .
 
 
 ###  https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8
@@ -974,6 +934,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_ad83fdc3_f3ec_4037_b06f_1675a531f29f rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b ;
                                           rdfs:label "UltrasonicWelding"@en .
+
+
+###  https://gpo.ontology.link/GPO_b10580a1_fb72_4151_a573_bbef22bae02b
+:GPO_b10580a1_fb72_4151_a573_bbef22bae02b rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_aa217fba_9840_4176_98a6_e247cf0181c8 ;
+                                          rdfs:label "Extraction"@en .
 
 
 ###  https://gpo.ontology.link/GPO_b28dc33d_0d96_4441_9686_7327becdcbc1
@@ -1054,11 +1020,11 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:subClassOf :GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 ,
                                                           :GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ,
                                                           [ rdf:type owl:Restriction ;
-                                                            owl:onProperty :GPO_d9f99371_6c00_41a0_9676_bbb150b317fb ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
                                                             owl:someValuesFrom :GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
                                                           ] ,
                                                           [ rdf:type owl:Restriction ;
-                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:onProperty :GPO_d9f99371_6c00_41a0_9676_bbb150b317fb ;
                                                             owl:someValuesFrom :GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
                                                           ] ;
                                           rdfs:label "ThermalDrying"@en .
@@ -1081,6 +1047,24 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_c891e59a_6ce5_4c3c_be65_d973311ad136 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_0fdd8965_b9af_4e36_bdd0_7cd3dd37ab98 ;
                                           skos:prefLabel "Aircraft"@en .
+
+
+###  https://gpo.ontology.link/GPO_c8e0ab0c_1a3d_4184_969e_5476ab0bb36d
+:GPO_c8e0ab0c_1a3d_4184_969e_5476ab0bb36d rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_b10580a1_fb72_4151_a573_bbef22bae02b ;
+                                          rdfs:label "LiquidMediumExtraction"@en .
+
+
+###  https://gpo.ontology.link/GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1
+:GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe ;
+                                          rdfs:label "HardwareTool"@en .
+
+
+###  https://gpo.ontology.link/GPO_cb7f3ab6_4976_409e_9edf_bb8c84eb1d54
+:GPO_cb7f3ab6_4976_409e_9edf_bb8c84eb1d54 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_0af58599_9d3d_480b_b28c_85bba198dc96 ;
+                                          rdfs:label "RemoteApi"@en .
 
 
 ###  https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9
@@ -1126,10 +1110,24 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           skos:prefLabel "HeatTreatment"@en .
 
 
+###  https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4
+:GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5 ,
+                                                          :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
+                                          rdfs:label "SoftwareModel"@en .
+
+
 ###  https://gpo.ontology.link/GPO_d89337ea_b7e4_4e81_a482_231aa25d1d39
 :GPO_d89337ea_b7e4_4e81_a482_231aa25d1d39 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_bc07577b_1e4b_4d60_aa8d_3cfd09e7c03a ;
                                           skos:prefLabel "Car"@en .
+
+
+###  https://gpo.ontology.link/GPO_dcb10cbc_f367_4f9f_b2b2_fe11195a087c
+:GPO_dcb10cbc_f367_4f9f_b2b2_fe11195a087c rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_f94e509a_be29_4365_a4cd_70165e47e232 ,
+                                                          :GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1 ;
+                                          rdfs:label "SimulationSoftware"@en .
 
 
 ###  https://gpo.ontology.link/GPO_e015afbe_407a_4dff_906a_bf0a15a93f6a
@@ -1149,6 +1147,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
                                           rdfs:comment "e.g. vacuum, Argon atmosphere" ;
                                           skos:prefLabel "ProcessEnvironment"@en .
+
+
+###  https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492
+:GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215 ;
+                                          rdfs:label "EndOfLineTesting"@en .
 
 
 ###  https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0
@@ -1172,6 +1176,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                           ] ;
                                           rdfs:comment "a information transformation process, e. g. converting file formats, calculation of a mathematical expression"@en ;
                                           skos:prefLabel "InformationalProcess"@en .
+
+
+###  https://gpo.ontology.link/GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215
+:GPO_ef7f0705_2774_4db9_87b6_f3d2f16b1215 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_70b20870_3beb_414a_b91f_2b6d234fda1a ;
+                                          rdfs:label "Testing"@en .
 
 
 ###  https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
