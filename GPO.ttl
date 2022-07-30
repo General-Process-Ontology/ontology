@@ -207,6 +207,10 @@ emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c rdf:type owl:Class ;
                                                owl:equivalentClass :GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd .
 
 
+###  http://emmo.info/emmo#EMMO_912ac3a2_a124_4233_92dd_06c9aebea46c
+emmo:EMMO_912ac3a2_a124_4233_92dd_06c9aebea46c owl:equivalentClass :GPO_560b54ed_de02_421d_b929_6fdc512a730f .
+
+
 ###  http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
 emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 rdf:type owl:Class .
 
@@ -238,6 +242,133 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 
 ###  http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
+
+
+###  https://gpo.ontology.link#GPO_560b54ed_de02_421d_b929_6fdc512a730f
+:GPO_560b54ed_de02_421d_b929_6fdc512a730f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:label "PartAssemblying"@en .
+
+
+###  https://gpo.ontology.link#GPO_57c4b094_e905_4307_9cdd_0db39e88e46d
+:GPO_57c4b094_e905_4307_9cdd_0db39e88e46d rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f ;
+                                          rdfs:label "PowderMixing"@en .
+
+
+###  https://gpo.ontology.link#GPO_6729f82e_56bc_4fae_a69d_ad4655f245e0
+:GPO_6729f82e_56bc_4fae_a69d_ad4655f245e0 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 ;
+                                          rdfs:label "DoctorBlading"@en .
+
+
+###  https://gpo.ontology.link#GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f
+:GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:allValuesFrom emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
+                                                          ] ;
+                                          rdfs:comment "mix two or more solids" ;
+                                          rdfs:label "SolidMixing"@en .
+
+
+###  https://gpo.ontology.link#GPO_8678c374_5a0a_458d_b349_6339e6a9fd74
+:GPO_8678c374_5a0a_458d_b349_6339e6a9fd74 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:label "Joining"@en .
+
+
+###  https://gpo.ontology.link#GPO_c531bf8b_27fe_43c5_8b12_f12f73545b8a
+:GPO_c531bf8b_27fe_43c5_8b12_f12f73545b8a rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_d84afb30_9eee_4c17_ab79_2de8895da4ad ;
+                                          rdfs:comment "to wind a material around itself" ;
+                                          rdfs:label "Winding"@en .
+
+
+###  https://gpo.ontology.link#GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331
+:GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_d84afb30_9eee_4c17_ab79_2de8895da4ad ;
+                                          rdfs:comment "to apply a thin liquid layer on a solid" ;
+                                          rdfs:label "Coating"@en .
+
+
+###  https://gpo.ontology.link#GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d
+:GPO_d7b2ecea_f055_4e3e_b5b9_020b8d81130d rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_2189e451_0054_4e25_8679_001ec2cdad7f ;
+                                          rdfs:label "Pressing"@en .
+
+
+###  https://gpo.ontology.link#GPO_d84afb30_9eee_4c17_ab79_2de8895da4ad
+:GPO_d84afb30_9eee_4c17_ab79_2de8895da4ad rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:label "Layering"@en .
+
+
+###  https://gpo.ontology.link#GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9
+:GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_d84afb30_9eee_4c17_ab79_2de8895da4ad ;
+                                          rdfs:comment "to wrap a material around another material" ;
+                                          rdfs:label "Wrapping"@en .
+
+
+###  https://gpo.ontology.link#GPO_ebae82b4_68e3_4566_9f0b_e859ebe53088
+:GPO_ebae82b4_68e3_4566_9f0b_e859ebe53088 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_8678c374_5a0a_458d_b349_6339e6a9fd74 ;
+                                          rdfs:comment "joining of two conductors" ;
+                                          rdfs:label "Contacting"@en .
+
+
+###  https://gpo.ontology.link#GPO_ecc98900_a7ff_4739_8542_1e6492c394bd
+:GPO_ecc98900_a7ff_4739_8542_1e6492c394bd rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_8678c374_5a0a_458d_b349_6339e6a9fd74 ;
+                                          rdfs:comment "to close an open volume" ;
+                                          rdfs:label "Capping"@en .
+
+
+###  https://gpo.ontology.link#GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d
+:GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom emmo:EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
+                                                          ] ;
+                                          rdfs:comment "mix one or more solids with one ore more liquids" ;
+                                          rdfs:label "LiquidSolidMixing"@en .
+
+
+###  https://gpo.ontology.link#GPO_eec11194_1552_47db_a410_997d651c92aa
+:GPO_eec11194_1552_47db_a410_997d651c92aa rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 ;
+                                          rdfs:label "SprayCoating"@en .
+
+
+###  https://gpo.ontology.link#GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf
+:GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 ;
+                                          rdfs:label "DipCoating"@en .
+
+
+###  https://gpo.ontology.link#GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e
+:GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 ;
+                                          rdfs:comment "coating with a highly viscous liquid" ;
+                                          rdfs:label "Calendering"@en .
+
+
+###  https://gpo.ontology.link#GPO_f882d2a2_64bc_442a_a23e_81a54082c647
+:GPO_f882d2a2_64bc_442a_a23e_81a54082c647 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:allValuesFrom emmo:EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba
+                                                          ] ;
+                                          rdfs:comment "mix two or more liquids" ;
+                                          rdfs:label "LiquidMixing"@en .
 
 
 ###  https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939
@@ -605,7 +736,8 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d
 :GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:subClassOf :GPO_d84afb30_9eee_4c17_ab79_2de8895da4ad ;
+                                          rdfs:comment "to create a stack of solid layers" ;
                                           rdfs:label "Stacking"@en .
 
 
@@ -637,6 +769,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794
 :GPO_65e00d30_9d66_4018_a7b9_a671729a1794 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b ;
+                                          rdfs:comment "to provide a (partial) envelope" ;
                                           rdfs:label "Sealing"@en .
 
 
@@ -657,6 +790,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a
 :GPO_680078b4_e669_407d_a9a5_902c1f55031a rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:comment "to fill an open volume with a liquid or gas" ;
                                           rdfs:label "Filling"@en .
 
 
@@ -735,7 +869,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b
 :GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b rdf:type owl:Class ;
-                                          rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
+                                          rdfs:subClassOf :GPO_8678c374_5a0a_458d_b349_6339e6a9fd74 ;
                                           rdfs:label "Welding"@en .
 
 
