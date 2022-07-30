@@ -244,6 +244,34 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 
+###  http://emmo.info/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929
+emmo:EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929 owl:equivalentClass :GPO_f116ab16_8764_4fee_bd14_52990ef3bd40 .
+
+
+###  https://gpo.ontology.link#GPO_1f42cf42_299b_43c4_8616_154920665540
+:GPO_1f42cf42_299b_43c4_8616_154920665540 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_a9d26d0b_c488_4349_a34b_fff146655267 ;
+                                          rdfs:label "WeighingScale"@en .
+
+
+###  https://gpo.ontology.link#GPO_328876a7_c599_47ba_848c_2024be809a35
+:GPO_328876a7_c599_47ba_848c_2024be809a35 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_bec0ac00_b4b6_492d_ba8a_08842aad2c5f ;
+                                          rdfs:label "MassSpectrometer"@en .
+
+
+###  https://gpo.ontology.link#GPO_3bdc9b56_36b4_4a1b_bb80_3ce428997606
+:GPO_3bdc9b56_36b4_4a1b_bb80_3ce428997606 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f116ab16_8764_4fee_bd14_52990ef3bd40 ;
+                                          rdfs:label "OpticalMeasurementDevice"@en .
+
+
+###  https://gpo.ontology.link#GPO_4823c56f_3708_4ddb_94b1_ccb928e65989
+:GPO_4823c56f_3708_4ddb_94b1_ccb928e65989 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f116ab16_8764_4fee_bd14_52990ef3bd40 ;
+                                          rdfs:label "Sensor"@en .
+
+
 ###  https://gpo.ontology.link#GPO_560b54ed_de02_421d_b929_6fdc512a730f
 :GPO_560b54ed_de02_421d_b929_6fdc512a730f rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
@@ -277,6 +305,36 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :GPO_8678c374_5a0a_458d_b349_6339e6a9fd74 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
                                           rdfs:label "Joining"@en .
+
+
+###  https://gpo.ontology.link#GPO_a07cde42_e539_4442_a765_522eecea9ad8
+:GPO_a07cde42_e539_4442_a765_522eecea9ad8 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_3bdc9b56_36b4_4a1b_bb80_3ce428997606 ;
+                                          rdfs:label "Pyrometer"@en .
+
+
+###  https://gpo.ontology.link#GPO_a9d26d0b_c488_4349_a34b_fff146655267
+:GPO_a9d26d0b_c488_4349_a34b_fff146655267 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f116ab16_8764_4fee_bd14_52990ef3bd40 ;
+                                          rdfs:label "DosingDevice"@en .
+
+
+###  https://gpo.ontology.link#GPO_b268ec22_f7cb_49e3_879a_18c653660ada
+:GPO_b268ec22_f7cb_49e3_879a_18c653660ada rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_bec0ac00_b4b6_492d_ba8a_08842aad2c5f ;
+                                          rdfs:label "ThermogravimetricMeasurementDevice"@en .
+
+
+###  https://gpo.ontology.link#GPO_b302ef9c_fb9d_4066_87f4_cb2cf7611bee
+:GPO_b302ef9c_fb9d_4066_87f4_cb2cf7611bee rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_fd3d3089_4697_42b1_8799_cdf135582294 ;
+                                          rdfs:label "Rheometer"@en .
+
+
+###  https://gpo.ontology.link#GPO_bec0ac00_b4b6_492d_ba8a_08842aad2c5f
+:GPO_bec0ac00_b4b6_492d_ba8a_08842aad2c5f rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f116ab16_8764_4fee_bd14_52990ef3bd40 ;
+                                          rdfs:label "AnalyticalMeasurementDevice"@en .
 
 
 ###  https://gpo.ontology.link#GPO_c531bf8b_27fe_43c5_8b12_f12f73545b8a
@@ -347,6 +405,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                           rdfs:label "SprayCoating"@en .
 
 
+###  https://gpo.ontology.link#GPO_f116ab16_8764_4fee_bd14_52990ef3bd40
+:GPO_f116ab16_8764_4fee_bd14_52990ef3bd40 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8 ;
+                                          rdfs:label "MeasuringDevice"@en .
+
+
 ###  https://gpo.ontology.link#GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf
 :GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 ;
@@ -369,6 +433,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                           ] ;
                                           rdfs:comment "mix two or more liquids" ;
                                           rdfs:label "LiquidMixing"@en .
+
+
+###  https://gpo.ontology.link#GPO_fd3d3089_4697_42b1_8799_cdf135582294
+:GPO_fd3d3089_4697_42b1_8799_cdf135582294 rdf:type owl:Class ;
+                                          rdfs:subClassOf :GPO_f116ab16_8764_4fee_bd14_52990ef3bd40 ;
+                                          rdfs:label "MechanicalMeasurementDevice"@en .
 
 
 ###  https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939
