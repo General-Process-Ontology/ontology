@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/444785584.svg)](https://zenodo.org/badge/latestdoi/444785584)
+
 # GPO
 
 General Process Ontology (GPO), work in progress
