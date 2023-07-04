@@ -12,7 +12,7 @@
 @base <https://gpo.ontology.link> .
 
 <https://gpo.ontology.link> rdf:type owl:Ontology ;
-                             owl:imports <http://emmo.info/emmo/reference/1.0.0-beta3> ;
+                             owl:imports <http://emmo.info/emmo/1.0.0-beta4> ;
                              terms:abstract "Ontology to model processes"@en ;
                              terms:creator "Simon Stier <simon.stier@isc.fraunhofer.de>"@en ;
                              terms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en .
@@ -171,8 +171,8 @@ emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1 rdf:type owl:Class .
 emmo:EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d rdf:type owl:Class .
 
 
-###  http://emmo.info/emmo#EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2
-emmo:EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2 rdf:type owl:Class .
+###  http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152
+emmo:EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152 rdf:type owl:Class .
 
 
 ###  http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
@@ -560,7 +560,7 @@ emmo:EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929 owl:equivalentClass :GPO_f116ab16
 
 ###  https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f
 :GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f rdf:type owl:Class ;
-                                          rdfs:subClassOf emmo:EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2 ;
+                                          rdfs:subClassOf emmo:EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152 ;
                                           rdfs:comment "Energy as physical concept"@en ;
                                           skos:prefLabel "Energy"@en .
 
