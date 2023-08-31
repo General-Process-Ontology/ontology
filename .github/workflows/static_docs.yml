@@ -22,10 +22,7 @@ jobs:
            java -jar widoco.jar -ontFile master/GPO.ttl -outFolder public -htaccess -uniteSections -includeAnnotationProperties -lang en-de  -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
            cp public/index-en.html public/index.html
     - name: Deploy to GitHub Pages
-      if: success()
-      uses: crazy-max/ghaction-github-pages@v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        target_branch: gh-pages
-        build_dir: public
-      #env:
-      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        folder: public # The folder the action should deploy.
+        branch: gh-pages # default
