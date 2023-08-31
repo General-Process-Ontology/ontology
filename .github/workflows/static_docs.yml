@@ -12,17 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-      with:
-        ref: master
-        path: repo
-    - name: Build HTML for master
+    - name: Build HTML
       run: | 
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
-           mkdir repo/public 
-           java -jar widoco.jar -ontFile repo/GPO.ttl -outFolder repo/public -htaccess -uniteSections -includeAnnotationProperties -lang en-de  -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
-           cp repo/public/index-en.html repo/public/index.html
+           mkdir public 
+           java -jar widoco.jar -ontFile GPO.ttl -outFolder public -htaccess -uniteSections -includeAnnotationProperties -lang en-de  -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+           cp public/index-en.html public/index.html
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: repo/public # The folder the action should deploy.
+        folder: public # The folder the action should deploy.
         branch: gh-pages # default
