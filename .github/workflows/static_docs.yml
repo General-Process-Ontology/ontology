@@ -3,7 +3,7 @@ name: static_docs
 on:
   push:
     branches:
-    - main
+    - master
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   
@@ -13,13 +13,13 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: main
-        path: main
-    - name: Build HTML for main
+        ref: master
+        path: master
+    - name: Build HTML for master
       run: | 
            wget -O widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-11-widoco-1.4.17-jar-with-dependencies.jar
            mkdir public 
-           java -jar widoco.jar -ontFile main/gpo.ttl -outFolder public -htaccess -uniteSections -includeAnnotationProperties -lang en-de  -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+           java -jar widoco.jar -ontFile master/gpo.ttl -outFolder public -htaccess -uniteSections -includeAnnotationProperties -lang en-de  -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
            cp public/index-en.html public/index.html
     - name: Deploy to GitHub Pages
       if: success()
