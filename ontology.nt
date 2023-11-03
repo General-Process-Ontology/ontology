@@ -343,6 +343,12 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_1f42cf42_299b_43c4_8616_154920665540> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267> .
 <https://gpo.ontology.link/GPO_1f42cf42_299b_43c4_8616_154920665540> <http://www.w3.org/2004/02/skos/core#prefLabel> "WeighingScale"@en .
 # 
+# https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939
+<https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
+<https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Defined or measured parameter, e. g. from inline sensing"@en .
+<https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://www.w3.org/2000/01/rdf-schema#label> "ActualParameter"@de .
+# 
 # https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f
 <https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_fb793a58_4083_42ad_a03c_27f594793b16> .
@@ -411,6 +417,11 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_318b082b_658a_457c_88c2_b23d780febeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_318b082b_658a_457c_88c2_b23d780febeb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> .
 <https://gpo.ontology.link/GPO_318b082b_658a_457c_88c2_b23d780febeb> <http://www.w3.org/2004/02/skos/core#prefLabel> "Smelting"@en .
+# 
+# https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d
+<https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> .
+<https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d> <http://www.w3.org/2000/01/rdf-schema#label> "HardwareParameter"@de .
 # 
 # https://gpo.ontology.link/GPO_328876a7_c599_47ba_848c_2024be809a35
 <https://gpo.ontology.link/GPO_328876a7_c599_47ba_848c_2024be809a35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -515,6 +526,10 @@ _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> .
 _:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mixing"@en .
 # 
 # https://gpo.ontology.link/GPO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4
@@ -554,6 +569,12 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_560b54ed_de02_421d_b929_6fdc512a730f> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212> .
 <https://gpo.ontology.link/GPO_560b54ed_de02_421d_b929_6fdc512a730f> <http://www.w3.org/2004/02/skos/core#prefLabel> "PartAssemblying"@en .
 # 
+# https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9
+<https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> .
+<https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> .
+<https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/2000/01/rdf-schema#label> "ActualMixingSpeed"@de .
+# 
 # https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d
 <https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> .
@@ -574,23 +595,23 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939> .
 <https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7> .
-<https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
-_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f> .
-_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
-_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0> .
-_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24> <http://www.w3.org/2004/02/skos/core#prefLabel> "Refining"@en .
 # 
 # https://gpo.ontology.link/GPO_6525ae89_1f2a_4426_adf0_4e142def29d1
 <https://gpo.ontology.link/GPO_6525ae89_1f2a_4426_adf0_4e142def29d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_6525ae89_1f2a_4426_adf0_4e142def29d1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_890abbc3_d75b_4f3f_a5b7_e1b0e898655b> .
-<https://gpo.ontology.link/GPO_6525ae89_1f2a_4426_adf0_4e142def29d1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
-_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_3ac98139_d8cd_431e_89b6_a624942ff16e> .
-_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_6525ae89_1f2a_4426_adf0_4e142def29d1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_3ac98139_d8cd_431e_89b6_a624942ff16e> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_6525ae89_1f2a_4426_adf0_4e142def29d1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Logistics"@en .
 # 
 # https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794
@@ -625,14 +646,14 @@ _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0
 <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
-<https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
-_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5> .
-_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
-_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606> .
-_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
+_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an object."@en .
 <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Eine Aussage, die sich auf ein Objekt bezieht."@de .
 <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> <http://www.w3.org/2004/02/skos/core#prefLabel> "ObjectParameter"@en .
@@ -650,14 +671,14 @@ _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4
 <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c> .
-<https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
-_:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba> .
-_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
-_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de> .
-_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
+_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204> .
 _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "An implicit assignment of an attribute and an object to any subject. Optionally, a reference and qualifier can also be specified. If the subject is itself a statement, it is a nested statement."@en .
 <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Eine Implizite Zuordnung von einem Attribut und einem Objekt zu einem beliebigen Subjekt. Optional können zudem ein Referenzen und Qualifier angegeben werden. Ist das Subjekt selbst eine Aussage, liegt eine verschachtelte Aussage vor."@de .
 <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.wikidata.org/wiki/Help:Statements" .
@@ -666,41 +687,53 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a
 <https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> .
-<https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
-_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb> .
-_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
-_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606> .
-_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
+_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6> .
 _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
-_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> .
-_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> <http://www.w3.org/2004/02/skos/core#prefLabel> "MeasurementProcess"@en .
 # 
 # https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270
 <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
-<https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
-_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_81369540_1b0e_471b_9bae_6801af22800e> .
-_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
-_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_81369540_1b0e_471b_9bae_6801af22800e> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> <http://www.w3.org/2004/02/skos/core#prefLabel> "MixingSpeed"@en .
+# 
+# https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4
+<https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> .
+<https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to the environment within a process"@en .
+<https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "Air humidity"@en .
+<https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://www.w3.org/2000/01/rdf-schema#label> "EnvironmentParameter"@de .
 # 
 # https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b
 <https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_8678c374_5a0a_458d_b349_6339e6a9fd74> .
 <https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b> <http://www.w3.org/2004/02/skos/core#prefLabel> "Welding"@en .
 # 
+# https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d
+<https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> .
+<https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d> <http://www.w3.org/2000/01/rdf-schema#label> "SoftwareParameter"@de .
+# 
 # https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f
 <https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> .
-<https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
-_:genid42 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1> .
-_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> <http://www.w3.org/2000/01/rdf-schema#comment> "mix two or more solids" .
 <https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> <http://www.w3.org/2004/02/skos/core#prefLabel> "SolidMixing"@en .
 # 
@@ -712,18 +745,18 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb
 <https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> .
-<https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
-_:genid43 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> .
-_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
-_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05> .
-_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
+_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> .
 _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
 _:genid45 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05> .
-_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05> .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "The application of software to transform information" .
 <https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> <http://www.w3.org/2004/02/skos/core#prefLabel> "SoftwareApplication"@en .
 # 
@@ -780,17 +813,23 @@ _:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01
 <https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_0af58599_9d3d_480b_b28c_85bba198dc96> .
-<https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
-_:genid46 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_087bb572_444a_4928_8e97_6d9fbf81e355> .
-_:genid46 <http://www.w3.org/2002/07/owl#onProperty> _:genid47 .
-_:genid47 <http://www.w3.org/2002/07/owl#inverseOf> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_087bb572_444a_4928_8e97_6d9fbf81e355> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#inverseOf> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01> <http://www.w3.org/2004/02/skos/core#prefLabel> "LocalFunction"@en .
 # 
 # https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270
 <https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9> .
 <https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270> <http://www.w3.org/2004/02/skos/core#prefLabel> "Role"@en .
+# 
+# https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95
+<https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> .
+<https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> .
+<https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/2000/01/rdf-schema#label> "NominalMixingSpeed"@de .
 # 
 # https://gpo.ontology.link/GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1
 <https://gpo.ontology.link/GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -800,18 +839,18 @@ _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1
 <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> .
-<https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
-_:genid48 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid49 .
-_:genid49 <http://www.w3.org/2002/07/owl#unionOf> _:genid51 .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2002/07/owl#Nothing> .
+<https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#unionOf> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> .
 _:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2002/07/owl#Nothing> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> <http://www.w3.org/2000/01/rdf-schema#comment> "preserved from emmo beta 1" .
 <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> <http://www.w3.org/2004/02/skos/core#prefLabel> "TemporalOrderedElement"@en .
 # 
@@ -860,6 +899,12 @@ _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> .
 <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d> .
 <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> <http://www.w3.org/2004/02/skos/core#prefLabel> "InformationStructure"@en .
+# 
+# https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c
+<https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
+<https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an participant within a process"@en .
+<https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://www.w3.org/2000/01/rdf-schema#label> "ParticipantParameter"@de .
 # 
 # https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267
 <https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -921,10 +966,10 @@ _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780
 <https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> .
-<https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
-_:genid52 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> .
-_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780> <http://www.w3.org/2004/02/skos/core#prefLabel> "ObjectHumidity"@en .
 # 
 # https://gpo.ontology.link/GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381
@@ -975,6 +1020,12 @@ _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_c578a5f4_43d3_40a7_ad60_ceccc0697172> <http://www.w3.org/2000/01/rdf-schema#comment> "Polarization, e.g. for magnetic materials" .
 <https://gpo.ontology.link/GPO_c578a5f4_43d3_40a7_ad60_ceccc0697172> <http://www.w3.org/2004/02/skos/core#prefLabel> "MagneticFieldTreatment"@en .
 # 
+# https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b
+<https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
+<https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Declared parameter, e.g . a machine parameter"@en .
+<https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://www.w3.org/2000/01/rdf-schema#label> "NominalParameter"@de .
+# 
 # https://gpo.ontology.link/GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435
 <https://gpo.ontology.link/GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e> .
@@ -984,14 +1035,14 @@ _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8> .
 <https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> .
-<https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
-_:genid53 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> .
-_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid54 .
 _:genid54 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> .
-_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190> <http://www.w3.org/2004/02/skos/core#prefLabel> "ThermalDrying"@en .
 # 
 # https://gpo.ontology.link/GPO_c85ad770_62d1_4fc8_9245_767cfa817252
@@ -1028,14 +1079,14 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9
 <https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939> .
-<https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
-_:genid55 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> .
-_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
-_:genid56 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> .
-_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid56 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recycling"@en .
 # 
 # https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331
@@ -1053,10 +1104,10 @@ _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564
 <https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
-<https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
-_:genid57 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
-_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
-_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an other parameter."@en .
 <https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Eine Aussage, die sich auf einen anderen Parameter bezieht."@de .
 <https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564> <http://www.w3.org/2004/02/skos/core#prefLabel> "NestedSemanticParameter"@en .
@@ -1064,11 +1115,25 @@ _:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
 <https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_fb793a58_4083_42ad_a03c_27f594793b16> .
-<https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
-_:genid58 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22> .
-_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> <http://www.w3.org/2004/02/skos/core#prefLabel> "HeatTreatment"@en .
+# 
+# https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4
+<https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> .
+<https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "Oven temperatur"@en .
+<https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "A statement that refers to a tool within a process"@en .
+<https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://www.w3.org/2000/01/rdf-schema#label> "ToolParameter"@de .
+# 
+# https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2
+<https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> .
+<https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
+<https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an object within a process"@en .
+<https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/2000/01/rdf-schema#label> "ProcessObjectParameter"@de .
 # 
 # https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4
 <https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1139,40 +1204,40 @@ _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d
 <https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> .
-<https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
-_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba> .
-_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
-_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1> .
+_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba> .
 _:genid60 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> <http://www.w3.org/2000/01/rdf-schema#comment> "mix one or more solids with one ore more liquids" .
 <https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> <http://www.w3.org/2004/02/skos/core#prefLabel> "LiquidSolidMixing"@en .
 # 
 # https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0
 <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> .
-<https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
-_:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid62 .
-_:genid62 <http://www.w3.org/2002/07/owl#unionOf> _:genid64 .
-_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://emmo.info/emmo#EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee> .
+<https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid63 .
+_:genid63 <http://www.w3.org/2002/07/owl#unionOf> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> .
 _:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid65 .
-_:genid65 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> .
-_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://emmo.info/emmo#EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
 _:genid66 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> .
-_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
+_:genid67 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2000/01/rdf-schema#comment> "a information transformation process, e. g. converting file formats, calculation of a mathematical expression"@en .
 <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> <http://www.w3.org/2004/02/skos/core#prefLabel> "InformationalProcess"@en .
 # 
@@ -1204,14 +1269,14 @@ _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681
 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
-<https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
-_:genid67 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5> .
-_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
-_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
-_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> .
-_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
+_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> .
 _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to a process."@en .
 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Eine Aussage, die sich auf einen Prozess bezieht."@de .
 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessParameter"@en .
@@ -1240,10 +1305,10 @@ _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647
 <https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> .
-<https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
-_:genid69 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba> .
-_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647> <http://www.w3.org/2000/01/rdf-schema#comment> "mix two or more liquids" .
 <https://gpo.ontology.link/GPO_f882d2a2_64bc_442a_a23e_81a54082c647> <http://www.w3.org/2004/02/skos/core#prefLabel> "LiquidMixing"@en .
 # 
@@ -1255,28 +1320,28 @@ _:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9
 <https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939> .
-<https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
-_:genid70 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> .
-_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
-_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
-_:genid71 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> .
-_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid71 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> <http://www.w3.org/2000/01/rdf-schema#comment> "The actual use of a product" .
 <https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Application"@en .
 # 
 # https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b
 <https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid72 .
-_:genid72 <http://www.w3.org/2002/07/owl#unionOf> _:genid74 .
-_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_2559152a_08b8_47ac_8c3e_10d706c8ecb0> .
+<https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#unionOf> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> .
 _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gpo.ontology.link/GPO_2559152a_08b8_47ac_8c3e_10d706c8ecb0> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13> .
 <https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> <http://www.w3.org/2000/01/rdf-schema#comment> "preserved from emmo beta 1" .
 <https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> <http://www.w3.org/2004/02/skos/core#prefLabel> "OrderedElement"@en .
@@ -1294,10 +1359,10 @@ _:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2
 <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
-<https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
-_:genid75 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22> .
-_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> .
-_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryingTemperature"@en .
 # 
 # https://gpo.ontology.link/GPO_ffcc3d64_ad9b_4ce3_ba11_5bbf6c2c3111

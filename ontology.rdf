@@ -675,6 +675,17 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"/>
+        <emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 xml:lang="en">Defined or measured parameter, e. g. from inline sensing</emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <rdfs:label xml:lang="de">ActualParameter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f -->
 
 
@@ -799,6 +810,16 @@
     <owl:Class rdf:about="https://gpo.ontology.link/GPO_318b082b_658a_457c_88c2_b23d780febeb">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42"/>
         <skos:prefLabel xml:lang="en">Smelting</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
+        <rdfs:label xml:lang="de">HardwareParameter</rdfs:label>
     </owl:Class>
     
 
@@ -974,6 +995,12 @@
                 <owl:someValuesFrom rdf:resource="https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"/>
+                <owl:someValuesFrom rdf:resource="https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">Mixing</skos:prefLabel>
     </owl:Class>
     
@@ -1047,6 +1074,17 @@
     <owl:Class rdf:about="https://gpo.ontology.link/GPO_560b54ed_de02_421d_b929_6fdc512a730f">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212"/>
         <skos:prefLabel xml:lang="en">PartAssemblying</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"/>
+        <rdfs:label xml:lang="de">ActualMixingSpeed</rdfs:label>
     </owl:Class>
     
 
@@ -1288,12 +1326,34 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c"/>
+        <emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 xml:lang="en">A statement that refers to the environment within a process</emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <emmo1:fdf31_6387_42be_8e72_10530519214a xml:lang="en">Air humidity</emmo1:fdf31_6387_42be_8e72_10530519214a>
+        <rdfs:label xml:lang="de">EnvironmentParameter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b -->
 
 
     <owl:Class rdf:about="https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_8678c374_5a0a_458d_b349_6339e6a9fd74"/>
         <skos:prefLabel xml:lang="en">Welding</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"/>
+        <rdfs:label xml:lang="de">SoftwareParameter</rdfs:label>
     </owl:Class>
     
 
@@ -1484,6 +1544,17 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b"/>
+        <rdfs:label xml:lang="de">NominalMixingSpeed</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1 -->
 
 
@@ -1605,6 +1676,17 @@
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40"/>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d"/>
         <skos:prefLabel xml:lang="en">InformationStructure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
+        <emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 xml:lang="en">A statement that refers to an participant within a process</emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <rdfs:label xml:lang="de">ParticipantParameter</rdfs:label>
     </owl:Class>
     
 
@@ -1830,6 +1912,17 @@
     
 
 
+    <!-- https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"/>
+        <emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 xml:lang="en">Declared parameter, e.g . a machine parameter</emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <rdfs:label xml:lang="de">NominalParameter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gpo.ontology.link/GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435 -->
 
 
@@ -1998,6 +2091,30 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">HeatTreatment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c"/>
+        <emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Oven temperatur</emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <emmo1:fdf31_6387_42be_8e72_10530519214a xml:lang="en">A statement that refers to a tool within a process</emmo1:fdf31_6387_42be_8e72_10530519214a>
+        <rdfs:label xml:lang="de">ToolParameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"/>
+        <emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 xml:lang="en">A statement that refers to an object within a process</emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <rdfs:label xml:lang="de">ProcessObjectParameter</rdfs:label>
     </owl:Class>
     
 
