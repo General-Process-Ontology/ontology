@@ -967,12 +967,12 @@
     "@language" : "en",
     "@value" : "Defined or measured parameter, e. g. from inline sensing"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "ActualParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ActualParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f",
@@ -1129,12 +1129,12 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "HardwareParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HardwareParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_328876a7_c599_47ba_848c_2024be809a35",
@@ -1398,14 +1398,14 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "ActualMixingSpeed"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939"
   }, {
     "@id" : "https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ActualMixingSpeed"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d",
@@ -1648,12 +1648,12 @@
     "@language" : "en",
     "@value" : "A statement that refers to the environment within a process"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "EnvironmentParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "EnvironmentParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b",
@@ -1668,12 +1668,12 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "SoftwareParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SoftwareParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f",
@@ -1870,14 +1870,14 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "NominalMixingSpeed"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"
   }, {
     "@id" : "https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NominalMixingSpeed"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1",
@@ -2003,12 +2003,12 @@
     "@language" : "en",
     "@value" : "A statement that refers to an participant within a process"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "ParticipantParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ParticipantParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267",
@@ -2258,12 +2258,12 @@
     "@language" : "en",
     "@value" : "Declared parameter, e.g . a machine parameter"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "NominalParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NominalParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0",
@@ -2444,12 +2444,12 @@
     "@language" : "en",
     "@value" : "Oven temperatur"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "ToolParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ToolParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2",
@@ -2458,14 +2458,14 @@
     "@language" : "en",
     "@value" : "A statement that refers to an object within a process"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "ProcessObjectParameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"
   }, {
     "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProcessObjectParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4",

@@ -347,7 +347,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
 <https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Defined or measured parameter, e. g. from inline sensing"@en .
-<https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://www.w3.org/2000/01/rdf-schema#label> "ActualParameter"@de .
+<https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> <http://www.w3.org/2004/02/skos/core#prefLabel> "ActualParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f
 <https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -421,7 +421,7 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d
 <https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> .
-<https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d> <http://www.w3.org/2000/01/rdf-schema#label> "HardwareParameter"@de .
+<https://gpo.ontology.link/GPO_3231f234_a167_42d8_a665_7415b5f55b5d> <http://www.w3.org/2004/02/skos/core#prefLabel> "HardwareParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_328876a7_c599_47ba_848c_2024be809a35
 <https://gpo.ontology.link/GPO_328876a7_c599_47ba_848c_2024be809a35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -573,7 +573,7 @@ _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> .
 <https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> .
-<https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/2000/01/rdf-schema#label> "ActualMixingSpeed"@de .
+<https://gpo.ontology.link/GPO_56834535_1c08_447b_b2d0_63ad533b6bf9> <http://www.w3.org/2004/02/skos/core#prefLabel> "ActualMixingSpeed"@en .
 # 
 # https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d
 <https://gpo.ontology.link/GPO_57c4b094_e905_4307_9cdd_0db39e88e46d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -715,7 +715,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> .
 <https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to the environment within a process"@en .
 <https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "Air humidity"@en .
-<https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://www.w3.org/2000/01/rdf-schema#label> "EnvironmentParameter"@de .
+<https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> <http://www.w3.org/2004/02/skos/core#prefLabel> "EnvironmentParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b
 <https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -725,7 +725,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d
 <https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> .
-<https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d> <http://www.w3.org/2000/01/rdf-schema#label> "SoftwareParameter"@de .
+<https://gpo.ontology.link/GPO_81050995_d110_4a80_b0fc_f81bc2f2e10d> <http://www.w3.org/2004/02/skos/core#prefLabel> "SoftwareParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f
 <https://gpo.ontology.link/GPO_81b0f5d9_15da_436d_bd62_9097f9c72e1f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -829,7 +829,7 @@ _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> .
 <https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> .
-<https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/2000/01/rdf-schema#label> "NominalMixingSpeed"@de .
+<https://gpo.ontology.link/GPO_99ef5665_e946_485d_b3ba_87e300564a95> <http://www.w3.org/2004/02/skos/core#prefLabel> "NominalMixingSpeed"@en .
 # 
 # https://gpo.ontology.link/GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1
 <https://gpo.ontology.link/GPO_9d7a60a1_72ee_4a92_9720_7f99971861b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -904,7 +904,7 @@ _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
 <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an participant within a process"@en .
-<https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://www.w3.org/2000/01/rdf-schema#label> "ParticipantParameter"@de .
+<https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> <http://www.w3.org/2004/02/skos/core#prefLabel> "ParticipantParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267
 <https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1024,7 +1024,7 @@ _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> .
 <https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Declared parameter, e.g . a machine parameter"@en .
-<https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://www.w3.org/2000/01/rdf-schema#label> "NominalParameter"@de .
+<https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> <http://www.w3.org/2004/02/skos/core#prefLabel> "NominalParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435
 <https://gpo.ontology.link/GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1126,14 +1126,14 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> .
 <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "Oven temperatur"@en .
 <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "A statement that refers to a tool within a process"@en .
-<https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://www.w3.org/2000/01/rdf-schema#label> "ToolParameter"@de .
+<https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> <http://www.w3.org/2004/02/skos/core#prefLabel> "ToolParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2
 <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> .
 <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> .
 <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an object within a process"@en .
-<https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/2000/01/rdf-schema#label> "ProcessObjectParameter"@de .
+<https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessObjectParameter"@en .
 # 
 # https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4
 <https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
