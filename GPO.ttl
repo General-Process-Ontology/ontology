@@ -639,10 +639,6 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
                                                             owl:someValuesFrom emmo:EMMO_90ae56e4_d197_49b6_be1a_0049e4756606
-                                                          ] ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                            owl:someValuesFrom emmo:EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5
                                                           ] ;
                                           skos:prefLabel "ObjectParameter"@en ;
                                           emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement that refers to an object."@en ,
@@ -1351,10 +1347,6 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                                           [ rdf:type owl:Restriction ;
                                                             owl:onProperty :GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0 ;
                                                             owl:someValuesFrom emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
-                                                          ] ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                            owl:someValuesFrom emmo:EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5
                                                           ] ;
                                           skos:prefLabel "ProcessParameter"@en ;
                                           emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement that refers to a process."@en ,
