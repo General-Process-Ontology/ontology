@@ -7,58 +7,49 @@
 @base <https://gpo.ontology.link#> .
 
 <https://gpo.ontology.link> rdf:type owl:Ontology ;
-                             owl:imports <http://emmo.info/emmo/1.0.0-beta4> ;
+                             owl:imports <https://w3id.org/emmo/1.0.0-beta7> ;
                              <http://purl.org/dc/terms/abstract> "Ontology to model processes"@en ;
                              <http://purl.org/dc/terms/creator> "Simon Stier <simon.stier@isc.fraunhofer.de>"@en ;
                              <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode"@en .
 
 #################################################################
+#    Annotation properties
+#################################################################
+
+###  http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a
+<http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
 #    Object Properties
 #################################################################
 
-###  http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
-<http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> rdf:type owl:ObjectProperty .
-
-
-###  http://emmo.info/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8
-<http://emmo.info/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8> rdf:type owl:ObjectProperty .
-
-
-###  http://emmo.info/emmo#EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5
-<http://emmo.info/emmo#EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5> rdf:type owl:ObjectProperty ,
-                                                                           owl:SymmetricProperty .
-
-
-###  http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a
-<http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> rdf:type owl:ObjectProperty .
-
-
 ###  https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305
 <https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291> ;
-                                                                     rdfs:domain <http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291> ;
+                                                                     rdfs:domain <https://w3id.org/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152> ;
                                                                      rdfs:range <https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "fulfillsRole"@en .
 
 
 ###  https://gpo.ontology.link/GPO_25f1a7da_895c_4d9b_b688_95b7deed7a80
 <https://gpo.ontology.link/GPO_25f1a7da_895c_4d9b_b688_95b7deed7a80> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "HasObject"@en .
 
 
 ###  https://gpo.ontology.link/GPO_2d23e608_57f5_4d0d_ba4e_c06ab274e101
 <https://gpo.ontology.link/GPO_2d23e608_57f5_4d0d_ba4e_c06ab274e101> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "hasTool"@en .
 
 
 ###  https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38
 <https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ;
                                                                      owl:inverseOf <https://gpo.ontology.link/GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560> ;
-                                                                     rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
-                                                                     rdfs:range <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                     rdfs:domain <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                     rdfs:range <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "hasPredecessor"@en .
 
 
@@ -70,29 +61,29 @@
 
 ###  https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75
 <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
-                                                                     rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
-                                                                     rdfs:range <http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                     rdfs:domain <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                     rdfs:range <https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "hasInput"@en .
 
 
 ###  https://gpo.ontology.link/GPO_869d7b15_2918_4064_be6b_241d4f7dc79e
 <https://gpo.ontology.link/GPO_869d7b15_2918_4064_be6b_241d4f7dc79e> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "HasSemanticStatement"@en .
 
 
 ###  https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb
 <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
-                                                                     rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
-                                                                     rdfs:range <http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                     rdfs:domain <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                     rdfs:range <https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "hasOutput"@en .
 
 
 ###  https://gpo.ontology.link/GPO_b03e856b_3316_422f_99f3_af4c96fd406a
 <https://gpo.ontology.link/GPO_b03e856b_3316_422f_99f3_af4c96fd406a> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_8785be5a_2493_4b12_8f39_31907ab11748> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_8785be5a_2493_4b12_8f39_31907ab11748> ;
                                                                      rdf:type owl:SymmetricProperty ;
                                                                      rdfs:comment "preserved from emmo beta 1" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSpatialNext"@en .
@@ -100,17 +91,17 @@
 
 ###  https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0
 <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "HasSubject"@en .
 
 
 ###  https://gpo.ontology.link/GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560
 <https://gpo.ontology.link/GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ;
-                                                                     rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                                                 <http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
-                                                                     rdfs:range <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                                                <http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
+                                                                     rdfs:subPropertyOf <https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ;
+                                                                     rdfs:domain <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
+                                                                                 <https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
+                                                                     rdfs:range <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
+                                                                                <https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSuccessor"@en .
 
 
@@ -126,138 +117,30 @@
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "HasConventionalSemanticStatement"@en .
 
 
+###  https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
+<https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8
+<https://w3id.org/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/emmo#EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5
+<https://w3id.org/emmo#EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5> rdf:type owl:ObjectProperty ,
+                                                                           owl:SymmetricProperty .
+
+
+###  https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a
+<https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> rdf:type owl:ObjectProperty .
+
+
 #################################################################
 #    Classes
 #################################################################
 
-###  http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40
-<http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
-<http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490
-<http://emmo.info/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490> owl:equivalentClass <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> .
-
-
-###  http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
-<http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb
-<http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb> rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
-                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e>
-                                                                                  ] .
-
-
-###  http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8
-<http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> owl:equivalentClass <https://gpo.ontology.link/GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1> ;
-                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe> .
-
-
-###  http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d
-<http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
-<http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d
-<http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
-<http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356>
-                                                                                  ] .
-
-
-###  http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba
-<http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
-<http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252
-<http://emmo.info/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252> rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                    owl:someValuesFrom <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
-                                                                                  ] ,
-                                                                                  [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
-                                                                                    owl:someValuesFrom <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
-                                                                                  ] .
-
-
-###  http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c
-<http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c> rdf:type owl:Class ;
-                                                                  owl:equivalentClass <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> .
-
-
-###  http://emmo.info/emmo#EMMO_912ac3a2_a124_4233_92dd_06c9aebea46c
-<http://emmo.info/emmo#EMMO_912ac3a2_a124_4233_92dd_06c9aebea46c> owl:equivalentClass <https://gpo.ontology.link/GPO_560b54ed_de02_421d_b929_6fdc512a730f> .
-
-
-###  http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152
-<http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
-<http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
-<http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
-                                                                                  [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
-                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8>
-                                                                                  ] ,
-                                                                                  [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                    owl:someValuesFrom <https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0>
-                                                                                  ] ,
-                                                                                  [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
-                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad>
-                                                                                  ] .
-
-
-###  http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d
-<http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7
-<http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
-<http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929
-<http://emmo.info/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929> owl:equivalentClass <https://gpo.ontology.link/GPO_f116ab16_8764_4fee_bd14_52990ef3bd40> .
-
-
 ###  https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939
 <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
-                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
-                                                                                     ] ,
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f>
@@ -271,8 +154,8 @@
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681>
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
@@ -281,6 +164,14 @@
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681>
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939>
                                                                                      ] ;
                                                                      rdfs:comment "a matter transformation process"@en ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalProcess"@en .
@@ -315,7 +206,7 @@
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> ,
                                                                                      <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentPart"@en .
@@ -335,7 +226,7 @@
 
 ###  https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
 <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentEngineered"@en .
 
 
@@ -347,7 +238,7 @@
 
 ###  https://gpo.ontology.link/GPO_11ea4fa0_cb4e_4a7e_94eb_f92962db03b9
 <https://gpo.ontology.link/GPO_11ea4fa0_cb4e_4a7e_94eb_f92962db03b9> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Container"@en .
 
 
@@ -366,7 +257,7 @@
 
 ###  https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f
 <https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726> ;
                                                                      rdfs:comment "Energy as physical concept"@en ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Energy"@en .
 
@@ -375,7 +266,7 @@
 <https://gpo.ontology.link/GPO_18daa97a_afc7_4227_b197_38cd2c694e05> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_f95f16fd_4ee0_4fa9_be7f_1e562747adfd> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "MiningSite"@en .
@@ -402,8 +293,8 @@
 ###  https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939
 <https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Defined or measured parameter, e. g. from inline sensing"@en ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ActualParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ActualParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Defined or measured parameter, e. g. from inline sensing"@en .
 
 
 ###  https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f
@@ -420,7 +311,7 @@
 
 ###  https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f
 <https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "RawMaterial"@en .
 
 
@@ -433,19 +324,19 @@
 
 ###  https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8
 <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ,
-                                                                                     <https://gpo.ontology.link/GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09> ,
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09> ,
+                                                                                     <https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356>
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
-                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356>
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Matter with a defined shape, consisting of other EngineeredParts or a Materal. Connects Matter with Participant."@en ;
                                                                      rdfs:comment "Unlike a device, the focus is on the composition and not on the role in a process"@en ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "EngineeredPart"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "EngineeredPart"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Matter with a defined shape, consisting of other EngineeredParts or a Materal. Connects Matter with Participant."@en .
 
 
 ###  https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6
@@ -462,15 +353,15 @@
 
 ###  https://gpo.ontology.link/GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e
 <https://gpo.ontology.link/GPO_2be9b8b9_5ec8_46f3_89d6_3692c310553e> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_b5957cef_a287_442d_a3ce_fd39f20ba1cd> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_b5957cef_a287_442d_a3ce_fd39f20ba1cd> ;
                                                                      rdfs:comment "site, place" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Location"@en .
 
 
 ###  https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e
 <https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae> ,
-                                                                                     <https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f> ;
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f> ,
+                                                                                     <https://w3id.org/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Ore"@en .
 
 
@@ -500,16 +391,16 @@
 
 ###  https://gpo.ontology.link/GPO_346074e2_96ff_4124_8ee9_2015c99a0b47
 <https://gpo.ontology.link/GPO_346074e2_96ff_4124_8ee9_2015c99a0b47> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660> ;
-                                                                     <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Set of data defined by implicit or explicit selection criteria. May contain multiply files or rows of a database. Typically stored in memory, not on disk." ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "DataObject"@en .
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660> ;
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "DataObject"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Set of data defined by implicit or explicit selection criteria. May contain multiply files or rows of a database. Typically stored in memory, not on disk." .
 
 
 ###  https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803
 <https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_ab6f9ec2_2d58_4c67_b40b_1f454148ec35> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "RawMaterialDeposit"@en .
@@ -517,7 +408,7 @@
 
 ###  https://gpo.ontology.link/GPO_3ac98139_d8cd_431e_89b6_a624942ff16e
 <https://gpo.ontology.link/GPO_3ac98139_d8cd_431e_89b6_a624942ff16e> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Vehicle"@en .
 
 
@@ -565,15 +456,15 @@
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> ;
                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                            owl:unionOf ( <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce>
-                                                                                                                          <http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606>
-                                                                                                                          <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b>
+                                                                                                            owl:unionOf ( <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b>
+                                                                                                                          <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce>
+                                                                                                                          <https://w3id.org/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606>
                                                                                                                         )
                                                                                                           ]
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to a process, object or other parameter."@en ,
-                                                                                                                                       "Eine Aussage, die sich auf einen Prozess, ein Objekt oder einen anderen Parameter bezieht."@de ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "SemanticParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "SemanticParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to a process, object or other parameter."@en ,
+                                                                                                                                       "Eine Aussage, die sich auf einen Prozess, ein Objekt oder einen anderen Parameter bezieht."@de .
 
 
 ###  https://gpo.ontology.link/GPO_44654615_7e14_48f0_a291_63b8ace3a07a
@@ -583,19 +474,15 @@
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4>
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement whose subject is itself a statement."@en ,
-                                                                                                                                       "Eine Aussage, deren Subjekt selbst eine Aussage ist."@de ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "NestedSemanticStatement"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "NestedSemanticStatement"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement whose subject is itself a statement."@en ,
+                                                                                                                                       "Eine Aussage, deren Subjekt selbst eine Aussage ist."@de .
 
 
 ###  https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232
 <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a> ,
-                                                                                     <https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212> ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
-                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe>
-                                                                                     ] ,
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212> ,
+                                                                                     <https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270>
@@ -603,6 +490,10 @@
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270>
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Mixing"@en .
 
@@ -615,7 +506,7 @@
 
 ###  https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe
 <https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_86a305d1_7644_48be_b84c_1f976679b904> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_86a305d1_7644_48be_b84c_1f976679b904> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "MixingDevice"@en .
 
 
@@ -633,20 +524,21 @@
 
 ###  https://gpo.ontology.link/GPO_49677fd4_666a_483d_870b_30163391951a
 <https://gpo.ontology.link/GPO_49677fd4_666a_483d_870b_30163391951a> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660> ;
-                                                                     <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "An encapsulated and persistant blob of information" ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "File"@en .
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660> ;
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "File"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "An encapsulated and persistant blob of information" .
 
 
 ###  https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212
 <https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252> ,
-                                                                                     <https://gpo.ontology.link/GPO_14953156_bec6_4935_a6c5_36920348d903> ;
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_14953156_bec6_4935_a6c5_36920348d903> ,
+                                                                                     <https://w3id.org/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Integration"@en .
 
 
 ###  https://gpo.ontology.link/GPO_560b54ed_de02_421d_b929_6fdc512a730f
 <https://gpo.ontology.link/GPO_560b54ed_de02_421d_b929_6fdc512a730f> rdf:type owl:Class ;
+                                                                     owl:equivalentClass <https://w3id.org/emmo#EMMO_912ac3a2_a124_4233_92dd_06c9aebea46c> ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "PartAssemblying"@en .
 
@@ -696,7 +588,7 @@
 <https://gpo.ontology.link/GPO_6525ae89_1f2a_4426_adf0_4e142def29d1> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_890abbc3_d75b_4f3f_a5b7_e1b0e898655b> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_3ac98139_d8cd_431e_89b6_a624942ff16e>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Logistics"@en .
@@ -718,8 +610,8 @@
 
 ###  https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
 <https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
-                                                                                     <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> ;
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> ,
+                                                                                     <https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentMaterial"@en .
 
 
@@ -740,16 +632,12 @@
 <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606>
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606>
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an object."@en ,
-                                                                                                                                       "Eine Aussage, die sich auf ein Objekt bezieht."@de ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ObjectParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ObjectParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an object."@en ,
+                                                                                                                                       "Eine Aussage, die sich auf ein Objekt bezieht."@de .
 
 
 ###  https://gpo.ontology.link/GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62
@@ -760,41 +648,41 @@
 
 ###  https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1
 <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SoftwareTool"@en .
 
 
 ###  https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4
 <https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c> ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba>
-                                                                                     ] ,
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de>
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de>
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba>
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "An implicit assignment of an attribute and an object to any subject. Optionally, a reference and qualifier can also be specified. If the subject is itself a statement, it is a nested statement."@en ,
-                                                                                                                                       "Eine Implizite Zuordnung von einem Attribut und einem Objekt zu einem beliebigen Subjekt. Optional können zudem ein Referenzen und Qualifier angegeben werden. Ist das Subjekt selbst eine Aussage, liegt eine verschachtelte Aussage vor."@de ;
                                                                      rdfs:seeAlso "https://www.wikidata.org/wiki/Help:Statements" ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "SemanticStatement"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "SemanticStatement"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "An implicit assignment of an attribute and an object to any subject. Optionally, a reference and qualifier can also be specified. If the subject is itself a statement, it is a nested statement."@en ,
+                                                                                                                                       "Eine Implizite Zuordnung von einem Attribut und einem Objekt zu einem beliebigen Subjekt. Optional können zudem ein Referenzen und Qualifier angegeben werden. Ist das Subjekt selbst eine Aussage, liegt eine verschachtelte Aussage vor."@de .
 
 
 ###  https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a
 <https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb>
-                                                                                     ] ,
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606>
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606>
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd>
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "MeasurementProcess"@en .
 
@@ -803,8 +691,8 @@
 <https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_81369540_1b0e_471b_9bae_6801af22800e>
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_81369540_1b0e_471b_9bae_6801af22800e>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "MixingSpeed"@en .
 
@@ -812,9 +700,9 @@
 ###  https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4
 <https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to the environment within a process"@en ;
                                                                      <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "Air humidity"@en ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "EnvironmentParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "EnvironmentParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to the environment within a process"@en .
 
 
 ###  https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b
@@ -834,7 +722,7 @@
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                       owl:allValuesFrom <http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1>
+                                                                                       owl:allValuesFrom <https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1>
                                                                                      ] ;
                                                                      rdfs:comment "mix two or more solids" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SolidMixing"@en .
@@ -850,19 +738,19 @@
 <https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
-                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05>
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05>
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                                       owl:someValuesFrom <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1>
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "The application of software to transform information" ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "SoftwareApplication"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "SoftwareApplication"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "The application of software to transform information" .
 
 
 ###  https://gpo.ontology.link/GPO_858cfdad_246e_480a_b545_69686142211b
@@ -929,7 +817,7 @@
 <https://gpo.ontology.link/GPO_983507d5_1d17_4846_9142_2c8baecf0b01> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_0af58599_9d3d_480b_b28c_85bba198dc96> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty [ owl:inverseOf <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f>
+                                                                                       owl:onProperty [ owl:inverseOf <https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f>
                                                                                                       ] ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_087bb572_444a_4928_8e97_6d9fbf81e355>
                                                                                      ] ;
@@ -938,7 +826,7 @@
 
 ###  https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270
 <https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Role"@en .
 
 
@@ -959,7 +847,7 @@
 <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d> ;
                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
                                                                                                             owl:unionOf ( owl:Nothing
                                                                                                                           <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1>
@@ -1020,16 +908,18 @@
 
 ###  https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd
 <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> ,
-                                                                                     <http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d> ;
+                                                                     owl:equivalentClass <https://w3id.org/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490> ,
+                                                                                         <https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> ,
+                                                                                     <https://w3id.org/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "InformationStructure"@en .
 
 
 ###  https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c
 <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an participant within a process"@en ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ParticipantParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ParticipantParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an participant within a process"@en .
 
 
 ###  https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267
@@ -1046,7 +936,7 @@
 
 ###  https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7
 <https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                                                      rdfs:comment "Processes in which material is chemically modified, e. g. chemical synthesis"@en ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalProcess"@en .
 
@@ -1059,7 +949,7 @@
 
 ###  https://gpo.ontology.link/GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e
 <https://gpo.ontology.link/GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "MonetaryValue"@en .
 
 
@@ -1104,7 +994,7 @@
 <https://gpo.ontology.link/GPO_ba0bee97_1f2d_4201_b6dd_4868c8963780> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8> ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ObjectHumidity"@en .
@@ -1142,14 +1032,14 @@
 
 ###  https://gpo.ontology.link/GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d
 <https://gpo.ontology.link/GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
-                                                                     <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A process that manipulates the location of a participant" ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "TransportProcess"@en .
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "TransportProcess"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A process that manipulates the location of a participant" .
 
 
 ###  https://gpo.ontology.link/GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09
 <https://gpo.ontology.link/GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Assembly"@en .
 
 
@@ -1170,8 +1060,8 @@
 ###  https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b
 <https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Declared parameter, e.g . a machine parameter"@en ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "NominalParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "NominalParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "Declared parameter, e.g . a machine parameter"@en .
 
 
 ###  https://gpo.ontology.link/GPO_c6ed5569_2b1b_44b0_b7b8_1baaff6f2435
@@ -1197,8 +1087,8 @@
 
 ###  https://gpo.ontology.link/GPO_c85ad770_62d1_4fc8_9245_767cfa817252
 <https://gpo.ontology.link/GPO_c85ad770_62d1_4fc8_9245_767cfa817252> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
-                                                                                     <https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> ;
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> ,
+                                                                                     <https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentMaterial"@en .
 
 
@@ -1222,7 +1112,8 @@
 
 ###  https://gpo.ontology.link/GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1
 <https://gpo.ontology.link/GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe> ;
+                                                                     owl:equivalentClass <https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "HardwareTool"@en .
 
 
@@ -1267,17 +1158,17 @@
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b>
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an other parameter."@en ,
-                                                                                                                                       "Eine Aussage, die sich auf einen anderen Parameter bezieht."@de ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "NestedSemanticParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "NestedSemanticParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an other parameter."@en ,
+                                                                                                                                       "Eine Aussage, die sich auf einen anderen Parameter bezieht."@de .
 
 
 ###  https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
 <https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_fb793a58_4083_42ad_a03c_27f594793b16> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22>
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "HeatTreatment"@en .
 
@@ -1285,23 +1176,23 @@
 ###  https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4
 <https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c> ;
-                                                                     <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "Oven temperatur"@en ;
                                                                      <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "A statement that refers to a tool within a process"@en ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ToolParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ToolParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "Oven temperatur"@en .
 
 
 ###  https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2
 <https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0> ,
                                                                                      <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an object within a process"@en ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessObjectParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessObjectParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to an object within a process"@en .
 
 
 ###  https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4
 <https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5> ,
-                                                                                     <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> ;
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> ,
+                                                                                     <https://w3id.org/emmo#EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SoftwareModel"@en .
 
 
@@ -1325,8 +1216,8 @@
 
 ###  https://gpo.ontology.link/GPO_dcb10cbc_f367_4f9f_b2b2_fe11195a087c
 <https://gpo.ontology.link/GPO_dcb10cbc_f367_4f9f_b2b2_fe11195a087c> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_f94e509a_be29_4365_a4cd_70165e47e232> ,
-                                                                                     <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> ;
+                                                                     rdfs:subClassOf <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1> ,
+                                                                                     <https://w3id.org/emmo#EMMO_f94e509a_be29_4365_a4cd_70165e47e232> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SimulationSoftware"@en .
 
 
@@ -1344,7 +1235,7 @@
 
 ###  https://gpo.ontology.link/GPO_e32ea22e_6cc5_48e7_a168_faad8e657ff5
 <https://gpo.ontology.link/GPO_e32ea22e_6cc5_48e7_a168_faad8e657ff5> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
                                                                      rdfs:comment "e.g. vacuum, Argon atmosphere" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessEnvironment"@en .
 
@@ -1381,11 +1272,11 @@
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba>
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba>
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1>
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1>
                                                                                      ] ;
                                                                      rdfs:comment "mix one or more solids with one ore more liquids" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "LiquidSolidMixing"@en .
@@ -1393,15 +1284,7 @@
 
 ###  https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0
 <https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                                                     [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
-                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                                                            owl:unionOf ( <http://emmo.info/emmo#EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee>
-                                                                                                                          <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1>
-                                                                                                                        )
-                                                                                                          ]
-                                                                                     ] ,
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd>
@@ -1409,6 +1292,14 @@
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
                                                                                        owl:someValuesFrom <https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd>
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                                       owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                            owl:unionOf ( <https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1>
+                                                                                                                          <https://w3id.org/emmo#EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee>
+                                                                                                                        )
+                                                                                                          ]
                                                                                      ] ;
                                                                      rdfs:comment "a information transformation process, e. g. converting file formats, calculation of a mathematical expression"@en ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "InformationalProcess"@en .
@@ -1428,13 +1319,14 @@
 
 ###  https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
 <https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentEngineered"@en .
 
 
 ###  https://gpo.ontology.link/GPO_f116ab16_8764_4fee_bd14_52990ef3bd40
 <https://gpo.ontology.link/GPO_f116ab16_8764_4fee_bd14_52990ef3bd40> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                                                     owl:equivalentClass <https://w3id.org/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "MeasuringDevice"@en .
 
 
@@ -1448,16 +1340,12 @@
 <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5>
-                                                                                     ] ,
-                                                                                     [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce>
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce>
                                                                                      ] ;
-                                                                     <http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to a process."@en ,
-                                                                                                                                       "Eine Aussage, die sich auf einen Prozess bezieht."@de ;
-                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessParameter"@en .
+                                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessParameter"@en ;
+                                                                     <https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84> "A statement that refers to a process."@en ,
+                                                                                                                                       "Eine Aussage, die sich auf einen Prozess bezieht."@de .
 
 
 ###  https://gpo.ontology.link/GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf
@@ -1490,7 +1378,7 @@
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                       owl:allValuesFrom <http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba>
+                                                                                       owl:allValuesFrom <https://w3id.org/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba>
                                                                                      ] ;
                                                                      rdfs:comment "mix two or more liquids" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "LiquidMixing"@en .
@@ -1507,7 +1395,7 @@
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad>
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad>
                                                                                      ] ,
                                                                                      [ rdf:type owl:Restriction ;
                                                                                        owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
@@ -1524,7 +1412,7 @@
                                                                                                          <https://gpo.ontology.link/GPO_9e05fb71_a666_49a9_b6b1_53595999ede1>
                                                                                                        )
                                                                                          ] ;
-                                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13> ;
+                                                                     rdfs:subClassOf <https://w3id.org/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13> ;
                                                                      rdfs:comment "preserved from emmo beta 1" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "OrderedElement"@en .
 
@@ -1545,8 +1433,8 @@
 <https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681> ,
                                                                                      [ rdf:type owl:Restriction ;
-                                                                                       owl:onProperty <http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> ;
-                                                                                       owl:someValuesFrom <http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22>
+                                                                                       owl:onProperty <https://w3id.org/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860> ;
+                                                                                       owl:someValuesFrom <https://w3id.org/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22>
                                                                                      ] ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "DryingTemperature"@en .
 
@@ -1556,6 +1444,109 @@
                                                                      rdfs:subClassOf <https://gpo.ontology.link/GPO_bc07577b_1e4b_4d60_aa8d_3cfd09e7c03a> ;
                                                                      <http://www.w3.org/2004/02/skos/core#altLabel> "Lorry" ;
                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Truck"@en .
+
+
+###  https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40
+<https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
+<https://w3id.org/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
+<https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb
+<https://w3id.org/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                    owl:someValuesFrom <https://w3id.org/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e>
+                                                                                  ] .
+
+
+###  https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8
+<https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> rdfs:subClassOf <https://w3id.org/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe> .
+
+
+###  https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d
+<https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
+<https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d
+<https://w3id.org/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
+<https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                    owl:someValuesFrom <https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356>
+                                                                                  ] .
+
+
+###  https://w3id.org/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba
+<https://w3id.org/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
+<https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252
+<https://w3id.org/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                    owl:someValuesFrom <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                    owl:someValuesFrom <https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
+                                                                                  ] .
+
+
+###  https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c
+<https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152
+<https://w3id.org/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
+<https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
+<https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                    owl:someValuesFrom <https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                    owl:someValuesFrom <https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a> ;
+                                                                                    owl:someValuesFrom <https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8>
+                                                                                  ] .
+
+
+###  https://w3id.org/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d
+<https://w3id.org/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7
+<https://w3id.org/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
+<https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

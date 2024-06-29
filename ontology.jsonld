@@ -2,121 +2,49 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e"
+    "@id" : "https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f"
   } ]
 }, {
   "@id" : "_:genid10",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f"
-  } ]
-}, {
-  "@id" : "_:genid11",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
-  } ]
-}, {
-  "@id" : "_:genid12",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
-  } ]
-}, {
-  "@id" : "_:genid13",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
-  } ]
-}, {
-  "@id" : "_:genid14",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f"
-  } ]
-}, {
-  "@id" : "_:genid15",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
-  } ]
-}, {
-  "@id" : "_:genid16",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4"
-  } ]
-}, {
-  "@id" : "_:genid17",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803"
   } ]
 }, {
-  "@id" : "_:genid18",
+  "@id" : "_:genid11",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
-  } ]
-}, {
-  "@id" : "_:genid19",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"
   } ]
 }, {
-  "@id" : "_:genid2",
+  "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
+    "@id" : "https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
   } ]
 }, {
-  "@id" : "_:genid20",
+  "@id" : "_:genid13",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f"
   } ]
 }, {
-  "@id" : "_:genid21",
+  "@id" : "_:genid14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
@@ -125,7 +53,7 @@
     "@id" : "https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"
   } ]
 }, {
-  "@id" : "_:genid22",
+  "@id" : "_:genid15",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
@@ -134,28 +62,37 @@
     "@id" : "https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f"
   } ]
 }, {
-  "@id" : "_:genid23",
+  "@id" : "_:genid16",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid24"
+    "@id" : "_:genid17"
   } ]
 }, {
-  "@id" : "_:genid24",
+  "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
-    }, {
-      "@id" : "http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
-    }, {
       "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
     } ]
   } ]
 }, {
-  "@id" : "_:genid28",
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
+  } ]
+}, {
+  "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0"
@@ -164,25 +101,7 @@
     "@id" : "https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4"
   } ]
 }, {
-  "@id" : "_:genid29",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe"
-  } ]
-}, {
-  "@id" : "_:genid3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"
-  } ]
-}, {
-  "@id" : "_:genid30",
+  "@id" : "_:genid22",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
@@ -191,7 +110,7 @@
     "@id" : "https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"
   } ]
 }, {
-  "@id" : "_:genid31",
+  "@id" : "_:genid23",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"
@@ -200,7 +119,16 @@
     "@id" : "https://gpo.ontology.link/GPO_72ce86f4_f61d_4a79_86bd_1db6b4c6f270"
   } ]
 }, {
-  "@id" : "_:genid32",
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe"
+  } ]
+}, {
+  "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
@@ -209,7 +137,7 @@
     "@id" : "https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f"
   } ]
 }, {
-  "@id" : "_:genid33",
+  "@id" : "_:genid26",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
@@ -218,79 +146,61 @@
     "@id" : "https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0"
   } ]
 }, {
-  "@id" : "_:genid34",
+  "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gpo.ontology.link/GPO_3ac98139_d8cd_431e_89b6_a624942ff16e"
   } ]
 }, {
-  "@id" : "_:genid35",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5"
-  } ]
-}, {
-  "@id" : "_:genid36",
+  "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
+    "@id" : "https://w3id.org/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
   } ]
 }, {
-  "@id" : "_:genid37",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
-  } ]
-}, {
-  "@id" : "_:genid38",
+  "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de"
+    "@id" : "https://w3id.org/emmo#EMMO_eb3a768e_d53e_4be9_a23b_0714833c36de"
   } ]
 }, {
-  "@id" : "_:genid39",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb"
-  } ]
-}, {
-  "@id" : "_:genid4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"
-  } ]
-}, {
-  "@id" : "_:genid40",
+  "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
+    "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
   } ]
 }, {
-  "@id" : "_:genid41",
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_90ae56e4_d197_49b6_be1a_0049e4756606"
+  } ]
+}, {
+  "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
@@ -299,34 +209,34 @@
     "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
   } ]
 }, {
-  "@id" : "_:genid42",
+  "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+    "@id" : "https://w3id.org/emmo#EMMO_7afbed84_7593_4a23_bd88_9d9c6b04e8f6"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_81369540_1b0e_471b_9bae_6801af22800e"
+    "@id" : "https://w3id.org/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb"
   } ]
 }, {
-  "@id" : "_:genid43",
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_81369540_1b0e_471b_9bae_6801af22800e"
+  } ]
+}, {
+  "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"
+    "@id" : "https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
   } ]
 }, {
-  "@id" : "_:genid44",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1"
-  } ]
-}, {
-  "@id" : "_:genid45",
+  "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
@@ -335,7 +245,7 @@
     "@id" : "https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05"
   } ]
 }, {
-  "@id" : "_:genid46",
+  "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
@@ -344,39 +254,48 @@
     "@id" : "https://gpo.ontology.link/GPO_a292bb5c_4596_48ac_8602_a3481bba5c05"
   } ]
 }, {
-  "@id" : "_:genid47",
+  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "_:genid48"
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid40"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gpo.ontology.link/GPO_087bb572_444a_4928_8e97_6d9fbf81e355"
   } ]
 }, {
-  "@id" : "_:genid48",
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  } ]
+}, {
+  "@id" : "_:genid40",
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
   } ]
 }, {
-  "@id" : "_:genid49",
+  "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d"
+    "@id" : "https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid50"
+    "@id" : "_:genid42"
   } ]
 }, {
-  "@id" : "_:genid5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
-  } ]
-}, {
-  "@id" : "_:genid50",
+  "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -386,16 +305,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid53",
+  "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8"
+    "@id" : "https://w3id.org/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2"
   } ]
 }, {
-  "@id" : "_:genid54",
+  "@id" : "_:genid46",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
@@ -404,7 +323,7 @@
     "@id" : "https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2"
   } ]
 }, {
-  "@id" : "_:genid55",
+  "@id" : "_:genid47",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_d9f99371_6c00_41a0_9676_bbb150b317fb"
@@ -413,7 +332,7 @@
     "@id" : "https://gpo.ontology.link/GPO_fdf81376_fd5d_4f7a_ab0e_f22cd0d35bd2"
   } ]
 }, {
-  "@id" : "_:genid56",
+  "@id" : "_:genid48",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
@@ -422,7 +341,7 @@
     "@id" : "https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1"
   } ]
 }, {
-  "@id" : "_:genid57",
+  "@id" : "_:genid49",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
@@ -431,7 +350,16 @@
     "@id" : "https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a"
   } ]
 }, {
-  "@id" : "_:genid58",
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f"
+  } ]
+}, {
+  "@id" : "_:genid50",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0"
@@ -440,125 +368,107 @@
     "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
   } ]
 }, {
-  "@id" : "_:genid59",
+  "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860"
+    "@id" : "https://w3id.org/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22"
+    "@id" : "https://w3id.org/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee"
+    } ]
   } ]
 }, {
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0"
+    "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
   } ]
 }, {
   "@id" : "_:genid60",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+    "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   } ]
 }, {
   "@id" : "_:genid61",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"
+  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"
   } ]
 }, {
   "@id" : "_:genid62",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid63"
+    "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
   } ]
 }, {
   "@id" : "_:genid63",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://emmo.info/emmo#EMMO_0527413c_b286_4e9c_b2d0_03fb2a038dee"
-    }, {
-      "@id" : "https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid66",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
-  } ]
-}, {
-  "@id" : "_:genid67",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
-  } ]
-}, {
-  "@id" : "_:genid68",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_f658c301_ce93_46cf_9639_4eace2c5d1d5"
-  } ]
-}, {
-  "@id" : "_:genid69",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
-  } ]
-}, {
-  "@id" : "_:genid7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
-  } ]
-}, {
-  "@id" : "_:genid70",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ]
-}, {
-  "@id" : "_:genid71",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
-  } ]
-}, {
-  "@id" : "_:genid72",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
@@ -567,7 +477,7 @@
     "@id" : "https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1"
   } ]
 }, {
-  "@id" : "_:genid73",
+  "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -577,19 +487,91 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid76",
+  "@id" : "_:genid67",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860"
+    "@id" : "https://w3id.org/emmo#EMMO_16b510a6_0584_4134_bdb6_3bc185c17860"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22"
+    "@id" : "https://w3id.org/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
   } ]
 }, {
   "@id" : "_:genid8",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939"
@@ -598,121 +580,14 @@
   "@id" : "_:genid9",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"
+    "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+    "@id" : "https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4"
   } ]
 }, {
-  "@id" : "http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490",
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb",
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid1"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8",
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid2"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252",
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid3"
-  }, {
-    "@id" : "_:genid4"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_912ac3a2_a124_4233_92dd_06c9aebea46c",
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_560b54ed_de02_421d_b929_6fdc512a730f"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939"
-  }, {
-    "@id" : "_:genid5"
-  }, {
-    "@id" : "_:genid6"
-  }, {
-    "@id" : "_:genid7"
-  } ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://emmo.info/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929",
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_f116ab16_8764_4fee_bd14_52990ef3bd40"
-  } ]
+  "@id" : "http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://gpo.ontology.link",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
@@ -729,7 +604,7 @@
     "@value" : "https://creativecommons.org/licenses/by/4.0/legalcode"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://emmo.info/emmo/1.0.0-beta4"
+    "@id" : "https://w3id.org/emmo/1.0.0-beta7"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939",
@@ -739,23 +614,23 @@
     "@value" : "a matter transformation process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
   }, {
     "@id" : "_:genid8"
-  }, {
-    "@id" : "_:genid9"
-  }, {
-    "@id" : "_:genid10"
-  }, {
-    "@id" : "_:genid11"
-  }, {
-    "@id" : "_:genid12"
-  }, {
-    "@id" : "_:genid13"
-  }, {
-    "@id" : "_:genid14"
-  }, {
-    "@id" : "_:genid15"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -809,7 +684,7 @@
   }, {
     "@id" : "https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"
   }, {
-    "@id" : "_:genid16"
+    "@id" : "_:genid9"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -839,13 +714,13 @@
   "@id" : "https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152"
+    "@id" : "https://w3id.org/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291"
+    "@id" : "https://w3id.org/emmo#EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -855,7 +730,7 @@
   "@id" : "https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+    "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -875,7 +750,7 @@
   "@id" : "https://gpo.ontology.link/GPO_11ea4fa0_cb4e_4a7e_94eb_f92962db03b9",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
+    "@id" : "https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -912,7 +787,7 @@
     "@value" : "Energy as physical concept"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152"
+    "@id" : "https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -924,7 +799,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_f95f16fd_4ee0_4fa9_be7f_1e562747adfd"
   }, {
-    "@id" : "_:genid17"
+    "@id" : "_:genid10"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -963,16 +838,16 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_215e6bc2_1d8d_4ef1_a90d_8003b992b939",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
-    "@language" : "en",
-    "@value" : "Defined or measured parameter, e. g. from inline sensing"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "ActualParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Defined or measured parameter, e. g. from inline sensing"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_2189e451_0054_4e25_8679_001ec2cdad7f",
@@ -998,7 +873,7 @@
   "@id" : "https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"
+    "@id" : "https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1021,7 +896,7 @@
   "@id" : "https://gpo.ontology.link/GPO_25f1a7da_895c_4d9b_b688_95b7deed7a80",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b"
+    "@id" : "https://w3id.org/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1030,26 +905,26 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
-    "@language" : "en",
-    "@value" : "Matter with a defined shape, consisting of other EngineeredParts or a Materal. Connects Matter with Participant."
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Unlike a device, the focus is on the composition and not on the role in a process"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09"
   }, {
-    "@id" : "_:genid18"
+    "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
   }, {
-    "@id" : "_:genid19"
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "EngineeredPart"
+  } ],
+  "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@language" : "en",
+    "@value" : "Matter with a defined shape, consisting of other EngineeredParts or a Materal. Connects Matter with Participant."
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6",
@@ -1078,7 +953,7 @@
     "@value" : "site, place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_b5957cef_a287_442d_a3ce_fd39f20ba1cd"
+    "@id" : "https://w3id.org/emmo#EMMO_b5957cef_a287_442d_a3ce_fd39f20ba1cd"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1088,9 +963,9 @@
   "@id" : "https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1100,7 +975,7 @@
   "@id" : "https://gpo.ontology.link/GPO_2d23e608_57f5_4d0d_ba4e_c06ab274e101",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1149,27 +1024,27 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_346074e2_96ff_4124_8ee9_2015c99a0b47",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
-    "@value" : "Set of data defined by implicit or explicit selection criteria. May contain multiply files or rows of a database. Typically stored in memory, not on disk."
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660"
+    "@id" : "https://w3id.org/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "DataObject"
+  } ],
+  "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "Set of data defined by implicit or explicit selection criteria. May contain multiply files or rows of a database. Typically stored in memory, not on disk."
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d"
+    "@id" : "https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560"
@@ -1194,7 +1069,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_ab6f9ec2_2d58_4c67_b40b_1f454148ec35"
   }, {
-    "@id" : "_:genid20"
+    "@id" : "_:genid13"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1204,7 +1079,7 @@
   "@id" : "https://gpo.ontology.link/GPO_3ac98139_d8cd_431e_89b6_a624942ff16e",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
+    "@id" : "https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1216,9 +1091,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939"
   }, {
-    "@id" : "_:genid21"
+    "@id" : "_:genid14"
   }, {
-    "@id" : "_:genid22"
+    "@id" : "_:genid15"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1267,54 +1142,54 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4"
+  }, {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SemanticParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
     "@language" : "en",
     "@value" : "A statement that refers to a process, object or other parameter."
   }, {
     "@language" : "de",
     "@value" : "Eine Aussage, die sich auf einen Prozess, ein Objekt oder einen anderen Parameter bezieht."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4"
-  }, {
-    "@id" : "_:genid23"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "SemanticParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_44654615_7e14_48f0_a291_63b8ace3a07a",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4"
+  }, {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NestedSemanticStatement"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
     "@language" : "en",
     "@value" : "A statement whose subject is itself a statement."
   }, {
     "@language" : "de",
     "@value" : "Eine Aussage, deren Subjekt selbst eine Aussage ist."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4"
-  }, {
-    "@id" : "_:genid28"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "NestedSemanticStatement"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212"
   }, {
-    "@id" : "_:genid29"
+    "@id" : "https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a"
   }, {
-    "@id" : "_:genid30"
+    "@id" : "_:genid22"
   }, {
-    "@id" : "_:genid31"
+    "@id" : "_:genid23"
+  }, {
+    "@id" : "_:genid24"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1334,7 +1209,7 @@
   "@id" : "https://gpo.ontology.link/GPO_47df1439_d8e2_4392_8e90_258103fbb4fe",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_86a305d1_7644_48be_b84c_1f976679b904"
+    "@id" : "https://w3id.org/emmo#EMMO_86a305d1_7644_48be_b84c_1f976679b904"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1363,23 +1238,23 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_49677fd4_666a_483d_870b_30163391951a",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
-    "@value" : "An encapsulated and persistant blob of information"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660"
+    "@id" : "https://w3id.org/emmo#EMMO_1e877c70_3b01_45a8_a8f6_8ce4f6a24660"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "File"
+  } ],
+  "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "An encapsulated and persistant blob of information"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_14953156_bec6_4935_a6c5_36920348d903"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1390,6 +1265,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_912ac3a2_a124_4233_92dd_06c9aebea46c"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1448,9 +1326,9 @@
   }, {
     "@id" : "https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7"
   }, {
-    "@id" : "_:genid32"
+    "@id" : "_:genid25"
   }, {
-    "@id" : "_:genid33"
+    "@id" : "_:genid26"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1462,7 +1340,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_890abbc3_d75b_4f3f_a5b7_e1b0e898655b"
   }, {
-    "@id" : "_:genid34"
+    "@id" : "_:genid27"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1497,9 +1375,9 @@
   "@id" : "https://gpo.ontology.link/GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1531,23 +1409,21 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
+  }, {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ObjectParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
     "@language" : "en",
     "@value" : "A statement that refers to an object."
   }, {
     "@language" : "de",
     "@value" : "Eine Aussage, die sich auf ein Objekt bezieht."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
-  }, {
-    "@id" : "_:genid35"
-  }, {
-    "@id" : "_:genid36"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "ObjectParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62",
@@ -1563,7 +1439,7 @@
   "@id" : "https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe"
+    "@id" : "https://w3id.org/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1572,38 +1448,38 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_6fd96cfe_e99e_4030_95db_0a72b47865d4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://www.wikidata.org/wiki/Help:Statements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"
+  }, {
+    "@id" : "_:genid29"
+  }, {
+    "@id" : "_:genid30"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SemanticStatement"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
     "@language" : "en",
     "@value" : "An implicit assignment of an attribute and an object to any subject. Optionally, a reference and qualifier can also be specified. If the subject is itself a statement, it is a nested statement."
   }, {
     "@language" : "de",
     "@value" : "Eine Implizite Zuordnung von einem Attribut und einem Objekt zu einem beliebigen Subjekt. Optional können zudem ein Referenzen und Qualifier angegeben werden. Ist das Subjekt selbst eine Aussage, liegt eine verschachtelte Aussage vor."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@value" : "https://www.wikidata.org/wiki/Help:Statements"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"
-  }, {
-    "@id" : "_:genid37"
-  }, {
-    "@id" : "_:genid38"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "SemanticStatement"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
+    "@id" : "https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1613,13 +1489,13 @@
   "@id" : "https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   }, {
-    "@id" : "_:genid39"
+    "@id" : "_:genid31"
   }, {
-    "@id" : "_:genid40"
+    "@id" : "_:genid32"
   }, {
-    "@id" : "_:genid41"
+    "@id" : "_:genid33"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1631,7 +1507,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
   }, {
-    "@id" : "_:genid42"
+    "@id" : "_:genid34"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1644,16 +1520,16 @@
     "@language" : "en",
     "@value" : "Air humidity"
   } ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
-    "@language" : "en",
-    "@value" : "A statement that refers to the environment within a process"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "EnvironmentParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "A statement that refers to the environment within a process"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_7e0349b1_f5cd_4a61_ae5b_52441f61aa1b",
@@ -1684,7 +1560,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232"
   }, {
-    "@id" : "_:genid43"
+    "@id" : "_:genid35"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1703,21 +1579,21 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_849a339d_834e_40c0_b19c_168bccbeacfb",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
-    "@value" : "The application of software to transform information"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0"
   }, {
-    "@id" : "_:genid44"
+    "@id" : "_:genid36"
   }, {
-    "@id" : "_:genid45"
+    "@id" : "_:genid37"
   }, {
-    "@id" : "_:genid46"
+    "@id" : "_:genid38"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "SoftwareApplication"
+  } ],
+  "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "The application of software to transform information"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_858cfdad_246e_480a_b545_69686142211b",
@@ -1753,7 +1629,7 @@
   "@id" : "https://gpo.ontology.link/GPO_869d7b15_2918_4064_be6b_241d4f7dc79e",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
+    "@id" : "https://w3id.org/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1793,13 +1669,13 @@
   "@id" : "https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
+    "@id" : "https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
+    "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1851,7 +1727,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_0af58599_9d3d_480b_b28c_85bba198dc96"
   }, {
-    "@id" : "_:genid47"
+    "@id" : "_:genid39"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1861,7 +1737,7 @@
   "@id" : "https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9"
+    "@id" : "https://w3id.org/emmo#EMMO_b803f122_4acb_4064_9d71_c1e5fd091fc9"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1898,7 +1774,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_fa9835d6_b82e_49a7_9bbb_1cb822da2b8b"
   }, {
-    "@id" : "_:genid49"
+    "@id" : "_:genid41"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1988,9 +1864,14 @@
   "@id" : "https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40"
+    "@id" : "https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40"
   }, {
-    "@id" : "http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d"
+    "@id" : "https://w3id.org/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_3e7add3d_e6ed_489a_a796_8e31fef9b490"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -1999,16 +1880,16 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
-    "@language" : "en",
-    "@value" : "A statement that refers to an participant within a process"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "ParticipantParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "A statement that refers to an participant within a process"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_a9d26d0b_c488_4349_a34b_fff146655267",
@@ -2038,7 +1919,7 @@
     "@value" : "Processes in which material is chemically modified, e. g. chemical synthesis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2058,7 +1939,7 @@
   "@id" : "https://gpo.ontology.link/GPO_ac60cfc4_1500_41a4_9cf0_b5045155830e",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7"
+    "@id" : "https://w3id.org/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2081,7 +1962,7 @@
     "@value" : "preserved from emmo beta 1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_8785be5a_2493_4b12_8f39_31907ab11748"
+    "@id" : "https://w3id.org/emmo#EMMO_8785be5a_2493_4b12_8f39_31907ab11748"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2146,7 +2027,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"
   }, {
-    "@id" : "_:genid53"
+    "@id" : "_:genid45"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2205,21 +2086,21 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_c4600586_ccc8_4d4b_b7a2_123d5aa2d77d",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
-    "@value" : "A process that manipulates the location of a participant"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "TransportProcess"
+  } ],
+  "https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9" : [ {
+    "@value" : "A process that manipulates the location of a participant"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2"
+    "@id" : "https://w3id.org/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2254,22 +2135,22 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_c5952e89_2710_4dfd_b87a_82d99cc6823b",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
-    "@language" : "en",
-    "@value" : "Declared parameter, e.g . a machine parameter"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "NominalParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "Declared parameter, e.g . a machine parameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_c6a4a988_b3c1_4a38_aa28_762cba34e3f0",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b"
+    "@id" : "https://w3id.org/emmo#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2293,9 +2174,9 @@
   }, {
     "@id" : "https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42"
   }, {
-    "@id" : "_:genid54"
+    "@id" : "_:genid46"
   }, {
-    "@id" : "_:genid55"
+    "@id" : "_:genid47"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2305,9 +2186,9 @@
   "@id" : "https://gpo.ontology.link/GPO_c85ad770_62d1_4fc8_9245_767cfa817252",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2347,7 +2228,10 @@
   "@id" : "https://gpo.ontology.link/GPO_cb3864f2_a9ce_4ee1_8838_2fd0bc95d4f1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe"
+    "@id" : "https://w3id.org/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2369,9 +2253,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939"
   }, {
-    "@id" : "_:genid56"
+    "@id" : "_:genid48"
   }, {
-    "@id" : "_:genid57"
+    "@id" : "_:genid49"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2405,21 +2289,21 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_d03aba82_5af3_4553_9595_3883242b4564",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
+  }, {
+    "@id" : "_:genid50"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NestedSemanticParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
     "@language" : "en",
     "@value" : "A statement that refers to an other parameter."
   }, {
     "@language" : "de",
     "@value" : "Eine Aussage, die sich auf einen anderen Parameter bezieht."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
-  }, {
-    "@id" : "_:genid58"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "NestedSemanticParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42",
@@ -2427,7 +2311,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_fb793a58_4083_42ad_a03c_27f594793b16"
   }, {
-    "@id" : "_:genid59"
+    "@id" : "_:genid51"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2440,24 +2324,20 @@
     "@language" : "en",
     "@value" : "A statement that refers to a tool within a process"
   } ],
-  "http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
-    "@language" : "en",
-    "@value" : "Oven temperatur"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "ToolParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a" : [ {
+    "@language" : "en",
+    "@value" : "Oven temperatur"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_d281ecac_c2e8_4ae7_a56c_d973a7d943d2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
-    "@language" : "en",
-    "@value" : "A statement that refers to an object within a process"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_6dab7b9a_48f2_4ab2_b031_214d5ceac2d0"
   }, {
@@ -2466,14 +2346,18 @@
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
     "@value" : "ProcessObjectParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+    "@language" : "en",
+    "@value" : "A statement that refers to an object within a process"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_d30c62b5_4720_40b7_8c9d_0c43ef6a35f4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_c7013b53_3071_410b_a5e4_a8d266dcdfb5"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2483,17 +2367,17 @@
   "@id" : "https://gpo.ontology.link/GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   }, {
-    "@id" : "http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
+    "@id" : "https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   }, {
-    "@id" : "http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
+    "@id" : "https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d"
+    "@id" : "https://w3id.org/emmo#EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2543,9 +2427,9 @@
   "@id" : "https://gpo.ontology.link/GPO_dcb10cbc_f367_4f9f_b2b2_fe11195a087c",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_f94e509a_be29_4365_a4cd_70165e47e232"
-  }, {
     "@id" : "https://gpo.ontology.link/GPO_6e556808_d24d_46f5_86eb_fdbbdc6e6ef1"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_f94e509a_be29_4365_a4cd_70165e47e232"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2578,7 +2462,7 @@
     "@value" : "e.g. vacuum, Argon atmosphere"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+    "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2652,9 +2536,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232"
   }, {
-    "@id" : "_:genid60"
+    "@id" : "_:genid52"
   }, {
-    "@id" : "_:genid61"
+    "@id" : "_:genid53"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2668,13 +2552,13 @@
     "@value" : "a information transformation process, e. g. converting file formats, calculation of a mathematical expression"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
   }, {
-    "@id" : "_:genid62"
+    "@id" : "_:genid54"
   }, {
-    "@id" : "_:genid66"
+    "@id" : "_:genid55"
   }, {
-    "@id" : "_:genid67"
+    "@id" : "_:genid56"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2704,7 +2588,7 @@
   "@id" : "https://gpo.ontology.link/GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+    "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2714,7 +2598,10 @@
   "@id" : "https://gpo.ontology.link/GPO_f116ab16_8764_4fee_bd14_52990ef3bd40",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
+    "@id" : "https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2733,23 +2620,21 @@
 }, {
   "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://emmo.info/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
+  }, {
+    "@id" : "_:genid60"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProcessParameter"
+  } ],
+  "https://w3id.org/emmo#EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84" : [ {
     "@language" : "en",
     "@value" : "A statement that refers to a process."
   }, {
     "@language" : "de",
     "@value" : "Eine Aussage, die sich auf einen Prozess bezieht."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://gpo.ontology.link/GPO_42631ff8_f9ce_408e_8446_99d5fd20dc6b"
-  }, {
-    "@id" : "_:genid68"
-  }, {
-    "@id" : "_:genid69"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "ProcessParameter"
   } ]
 }, {
   "@id" : "https://gpo.ontology.link/GPO_f48e1432_3ddd_4077_824f_fc664c72f7cf",
@@ -2803,7 +2688,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232"
   }, {
-    "@id" : "_:genid70"
+    "@id" : "_:genid61"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2828,9 +2713,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939"
   }, {
-    "@id" : "_:genid71"
+    "@id" : "_:genid62"
   }, {
-    "@id" : "_:genid72"
+    "@id" : "_:genid63"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2843,10 +2728,10 @@
     "@value" : "preserved from emmo beta 1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://emmo.info/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13"
+    "@id" : "https://w3id.org/emmo#EMMO_15db234d_ecaf_4715_9838_4b4ec424fb13"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid73"
+    "@id" : "_:genid64"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2878,7 +2763,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://gpo.ontology.link/GPO_f3f83d9a_ad84_4ce0_aaec_a388f18cd681"
   }, {
-    "@id" : "_:genid76"
+    "@id" : "_:genid67"
   } ],
   "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
     "@language" : "en",
@@ -2897,4 +2782,93 @@
     "@language" : "en",
     "@value" : "Truck"
   } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid68"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_6703954e_34c4_4a15_a9e7_f313760ae1a8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid69"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid70"
+  }, {
+    "@id" : "_:genid71"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_9a084aa3_3d5a_4a62_9fc0_fd88937a19c5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://gpo.ontology.link/GPO_01cd2578_8730_4ac9_a555_9112728ea939"
+  }, {
+    "@id" : "_:genid72"
+  }, {
+    "@id" : "_:genid73"
+  }, {
+    "@id" : "_:genid74"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 } ]
