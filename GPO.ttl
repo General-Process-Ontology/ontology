@@ -1,5 +1,4 @@
 @prefix : <https://gpo.ontology.link/> .
-@prefix isq: <http://emmo.info/emmo/middle/isq#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -8,7 +7,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
-@prefix annotations: <https://w3id.org/emmo/top/annotations#> .
 @base <https://gpo.ontology.link/> .
 
 <https://gpo.ontology.link> rdf:type owl:Ontology ;
@@ -16,13 +14,6 @@
                              terms:abstract "Ontology to model processes"@en ;
                              terms:creator "Simon Stier <simon.stier@isc.fraunhofer.de>"@en ;
                              terms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en .
-
-#################################################################
-#    Annotation properties
-#################################################################
-
-###  http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a
-<http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -705,7 +696,7 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
 ###  https://gpo.ontology.link/GPO_75d70684_4ed3_497f_b326_1dca9711e7d4
 :GPO_75d70684_4ed3_497f_b326_1dca9711e7d4 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c ;
-                                          <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "Air humidity"@en ;
+                                          emmo:EMMO_157fdf31_6387_42be_8e72_10530519214a "Air humidity"@en ;
                                           skos:prefLabel "EnvironmentParameter"@en ;
                                           emmo:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 "A statement that refers to the environment within a process"@en .
 
@@ -1181,7 +1172,7 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
 ###  https://gpo.ontology.link/GPO_d25d869b_d2c9_467a_a8d1_6804453648b4
 :GPO_d25d869b_d2c9_467a_a8d1_6804453648b4 rdf:type owl:Class ;
                                           rdfs:subClassOf :GPO_a7c0febc_0c12_4803_810a_f469c0d72e1c ;
-                                          <http://emmo.info/emmo#157fdf31_6387_42be_8e72_10530519214a> "A statement that refers to a tool within a process"@en ;
+                                          emmo:EMMO_157fdf31_6387_42be_8e72_10530519214a "A statement that refers to a tool within a process"@en ;
                                           skos:prefLabel "ToolParameter"@en ;
                                           emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a "Oven temperatur"@en .
 

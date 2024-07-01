@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://emmo.info/emmo/1.0.0-beta4" uri="https://raw.githubusercontent.com/emmo-repo/emmo-repo.github.io/master/versions/1.0.0-beta4/emmo-inferred.ttl"/>
     <!-- EMMO -->
     <uri name="https://w3id.org/emmo/1.0.0-beta7" uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta7/emmo.ttl"/>
     <uri name="https://w3id.org/emmo/1.0.0-beta7/mereocausality"                  uri="https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta7/mereocausality/mereocausality.ttl"/>
